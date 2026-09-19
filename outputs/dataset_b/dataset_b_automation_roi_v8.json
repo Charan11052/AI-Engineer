@@ -1,0 +1,100 @@
+{
+  "method": "V8 segment-level automation ROI",
+  "input": "D:\\CHARAN RONGALI\\AI Engineer\\outputs\\dataset_b\\dataset_b_segments_v8.jsonl",
+  "segments": 173,
+  "automation_saving_rate": 0.7,
+  "assumption": "70% of observed execution time could be saved under an automation scenario",
+  "total_observed_seconds": 5645.6,
+  "potential_saving_seconds": 3951.92,
+  "potential_saving_minutes": 65.87,
+  "task_results": [
+    {
+      "task": "FINANCE_INVOICE",
+      "execution_count": 29,
+      "total_observed_seconds": 1032.44,
+      "average_execution_seconds": 35.6,
+      "assumed_automation_saving_rate": 0.7,
+      "potential_saving_seconds": 722.71,
+      "potential_saving_minutes": 12.05,
+      "remaining_seconds": 309.73,
+      "average_saving_seconds_per_execution": 24.92
+    },
+    {
+      "task": "HR_ONBOARDING",
+      "execution_count": 22,
+      "total_observed_seconds": 871.53,
+      "average_execution_seconds": 39.62,
+      "assumed_automation_saving_rate": 0.7,
+      "potential_saving_seconds": 610.07,
+      "potential_saving_minutes": 10.17,
+      "remaining_seconds": 261.46,
+      "average_saving_seconds_per_execution": 27.73
+    },
+    {
+      "task": "LOGISTICS_INVENTORY",
+      "execution_count": 31,
+      "total_observed_seconds": 866.63,
+      "average_execution_seconds": 27.96,
+      "assumed_automation_saving_rate": 0.7,
+      "potential_saving_seconds": 606.64,
+      "potential_saving_minutes": 10.11,
+      "remaining_seconds": 259.99,
+      "average_saving_seconds_per_execution": 19.57
+    },
+    {
+      "task": "LOGISTICS_ORDER",
+      "execution_count": 26,
+      "total_observed_seconds": 822.75,
+      "average_execution_seconds": 31.64,
+      "assumed_automation_saving_rate": 0.7,
+      "potential_saving_seconds": 575.92,
+      "potential_saving_minutes": 9.6,
+      "remaining_seconds": 246.82,
+      "average_saving_seconds_per_execution": 22.15
+    },
+    {
+      "task": "FINANCE_PAYMENT",
+      "execution_count": 21,
+      "total_observed_seconds": 751.43,
+      "average_execution_seconds": 35.78,
+      "assumed_automation_saving_rate": 0.7,
+      "potential_saving_seconds": 526.0,
+      "potential_saving_minutes": 8.77,
+      "remaining_seconds": 225.43,
+      "average_saving_seconds_per_execution": 25.05
+    },
+    {
+      "task": "HR_ATTENDANCE",
+      "execution_count": 23,
+      "total_observed_seconds": 665.61,
+      "average_execution_seconds": 28.94,
+      "assumed_automation_saving_rate": 0.7,
+      "potential_saving_seconds": 465.93,
+      "potential_saving_minutes": 7.77,
+      "remaining_seconds": 199.68,
+      "average_saving_seconds_per_execution": 20.26
+    },
+    {
+      "task": "HR_PAYROLL",
+      "execution_count": 16,
+      "total_observed_seconds": 472.17,
+      "average_execution_seconds": 29.51,
+      "assumed_automation_saving_rate": 0.7,
+      "potential_saving_seconds": 330.52,
+      "potential_saving_minutes": 5.51,
+      "remaining_seconds": 141.65,
+      "average_saving_seconds_per_execution": 20.66
+    },
+    {
+      "task": "FINANCE_BUDGET",
+      "execution_count": 5,
+      "total_observed_seconds": 163.03,
+      "average_execution_seconds": 32.61,
+      "assumed_automation_saving_rate": 0.7,
+      "potential_saving_seconds": 114.12,
+      "potential_saving_minutes": 1.9,
+      "remaining_seconds": 48.91,
+      "average_saving_seconds_per_execution": 22.82
+    }
+  ]
+}

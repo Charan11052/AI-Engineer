@@ -1,0 +1,2 @@
+session_id,event_index,gap_seconds,previous_event,next_event,previous_app,next_app,next_window
+chunk_20260701-1800-LAPTOP-76QMG9DE,703,64.12,extension_disconnected,mouse_click,unknown,windowsterminal,Windows PowerShell

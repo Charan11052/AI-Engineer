@@ -1,0 +1,420 @@
+process_code,from_app,to_app,count
+F,notepad,google chrome,114
+F,google chrome,notepad,95
+B,notepad,google chrome,84
+B,google chrome,notepad,82
+N,google chrome,notepad,80
+N,notepad,google chrome,80
+A,notepad,google chrome,79
+A,google chrome,notepad,75
+H,notepad,google chrome,70
+D,notepad,google chrome,64
+D,google chrome,notepad,62
+G,notepad,google chrome,61
+H,google chrome,notepad,61
+J,notepad,google chrome,57
+G,google chrome,notepad,51
+K,notepad,google chrome,50
+J,google chrome,notepad,48
+K,google chrome,notepad,46
+C,notepad,google chrome,44
+C,google chrome,notepad,40
+L,notepad,google chrome,40
+I,notepad,google chrome,34
+L,google chrome,notepad,33
+M,notepad,google chrome,30
+I,google chrome,microsoft powerpoint,28
+E,notepad,google chrome,25
+M,google chrome,notepad,24
+C,google chrome,microsoft word,23
+E,google chrome,notepad,23
+F,google chrome,microsoft word,21
+NO_PROCESS,windowsterminal,google chrome,21
+M,google chrome,microsoft word,20
+O,notepad,google chrome,20
+I,microsoft powerpoint,notepad,19
+F,google chrome,windows explorer,17
+F,windows explorer,google chrome,17
+NO_PROCESS,google chrome,windowsterminal,17
+C,microsoft word,google chrome,16
+H,google chrome,microsoft word,15
+M,microsoft word,google chrome,15
+O,google chrome,notepad,15
+F,google chrome,microsoft powerpoint,14
+I,google chrome,notepad,14
+A,google chrome,microsoft word,13
+C,windows explorer,google chrome,13
+F,microsoft powerpoint,notepad,13
+L,google chrome,windows explorer,13
+F,microsoft word,google chrome,12
+J,google chrome,microsoft word,12
+A,google chrome,microsoft powerpoint,11
+A,microsoft word,google chrome,11
+C,google chrome,windows explorer,11
+F,google chrome,microsoft excel,11
+G,google chrome,microsoft powerpoint,11
+G,microsoft powerpoint,notepad,11
+NO_PROCESS,windows explorer,windowsterminal,11
+A,microsoft powerpoint,notepad,10
+D,google chrome,microsoft word,10
+F,microsoft excel,google chrome,10
+K,google chrome,microsoft word,10
+L,windows explorer,google chrome,10
+NO_PROCESS,windowsterminal,notepad,10
+D,google chrome,windows explorer,9
+D,windows explorer,google chrome,9
+F,microsoft word,notepad,9
+H,microsoft word,google chrome,9
+NO_PROCESS,google chrome,microsoft excel,9
+NO_PROCESS,microsoft excel,windowsterminal,9
+A,windows explorer,google chrome,8
+F,procmine-desktop-agent,google chrome,8
+F,windows explorer,procmine-desktop-agent,8
+I,microsoft powerpoint,google chrome,8
+NO_PROCESS,microsoft excel,google chrome,8
+NO_PROCESS,windowsterminal,microsoft excel,8
+B,settings,google chrome,7
+B,google chrome,microsoft word,7
+B,google chrome,microsoft powerpoint,7
+C,microsoft word,notepad,7
+C,notepad,windows explorer,7
+F,google chrome,windowsterminal,7
+F,windows explorer,windowsterminal,7
+G,google chrome,windows explorer,7
+H,google chrome,settings,7
+H,settings,google chrome,7
+H,windows explorer,google chrome,7
+J,microsoft word,notepad,7
+L,google chrome,microsoft powerpoint,7
+NO_PROCESS,notepad,google chrome,7
+NO_PROCESS,notepad,microsoft excel,7
+NO_PROCESS,windowsterminal,procmine-desktop-agent,7
+O,google chrome,windows explorer,7
+O,windows explorer,google chrome,7
+B,windows explorer,windowsterminal,6
+B,windows explorer,google chrome,6
+B,microsoft powerpoint,notepad,6
+D,google chrome,settings,6
+F,windowsterminal,windows explorer,6
+G,google chrome,microsoft word,6
+G,windows explorer,google chrome,6
+H,microsoft word,notepad,6
+H,google chrome,microsoft powerpoint,6
+H,microsoft powerpoint,notepad,6
+J,google chrome,microsoft powerpoint,6
+J,google chrome,windows explorer,6
+J,windows explorer,google chrome,6
+K,notepad,windows explorer,6
+K,windows explorer,google chrome,6
+NO_PROCESS,google chrome,notepad,6
+O,google chrome,microsoft powerpoint,6
+O,microsoft powerpoint,notepad,6
+A,microsoft excel,google chrome,5
+A,google chrome,windows explorer,5
+A,google chrome,settings,5
+B,google chrome,settings,5
+B,windowsterminal,windows explorer,5
+B,google chrome,windows explorer,5
+B,microsoft word,google chrome,5
+C,windows explorer,notepad,5
+D,microsoft word,notepad,5
+D,settings,google chrome,5
+D,microsoft word,google chrome,5
+D,windows explorer,windowsterminal,5
+F,windowsterminal,google chrome,5
+G,windows explorer,windowsterminal,5
+H,google chrome,windows explorer,5
+J,microsoft powerpoint,notepad,5
+J,microsoft word,google chrome,5
+K,windows explorer,notepad,5
+K,microsoft word,notepad,5
+K,microsoft word,google chrome,5
+K,google chrome,microsoft powerpoint,5
+L,microsoft powerpoint,notepad,5
+M,microsoft word,notepad,5
+N,settings,google chrome,5
+N,windows explorer,google chrome,5
+NO_PROCESS,notepad,windowsterminal,5
+NO_PROCESS,microsoft excel,notepad,5
+NO_PROCESS,procmine-desktop-agent,windowsterminal,5
+NO_PROCESS,google chrome,windows explorer,5
+NO_PROCESS,powershell,google chrome,5
+NO_PROCESS,notepad,windows explorer,5
+A,google chrome,microsoft excel,4
+A,settings,google chrome,4
+A,procmine-desktop-agent,google chrome,4
+B,procmine-desktop-agent,google chrome,4
+D,windowsterminal,windows explorer,4
+D,procmine-desktop-agent,google chrome,4
+F,procmine-desktop-agent,windows explorer,4
+G,procmine-desktop-agent,google chrome,4
+G,microsoft word,google chrome,4
+G,windowsterminal,google chrome,4
+H,windowsterminal,google chrome,4
+J,google chrome,windowsterminal,4
+K,google chrome,procmine-desktop-agent,4
+K,google chrome,windows explorer,4
+K,microsoft powerpoint,notepad,4
+L,windows explorer,procmine-desktop-agent,4
+L,procmine-desktop-agent,google chrome,4
+N,google chrome,windows explorer,4
+N,google chrome,settings,4
+A,notepad,windows explorer,3
+A,microsoft word,notepad,3
+A,procmine-desktop-agent,windows explorer,3
+B,windowsterminal,procmine-desktop-agent,3
+B,google chrome,windowsterminal,3
+C,google chrome,microsoft powerpoint,3
+D,windowsterminal,procmine-desktop-agent,3
+D,google chrome,microsoft powerpoint,3
+E,google chrome,microsoft powerpoint,3
+E,microsoft powerpoint,notepad,3
+F,windowsterminal,procmine-desktop-agent,3
+F,settings,google chrome,3
+F,notepad,windows explorer,3
+G,google chrome,windowsterminal,3
+H,windows explorer,windowsterminal,3
+H,procmine-desktop-agent,windows explorer,3
+J,settings,google chrome,3
+J,windowsterminal,google chrome,3
+K,procmine-desktop-agent,google chrome,3
+K,windowsterminal,google chrome,3
+K,procmine-desktop-agent,windows explorer,3
+M,settings,google chrome,3
+M,google chrome,windows explorer,3
+M,windows explorer,google chrome,3
+M,google chrome,microsoft powerpoint,3
+N,google chrome,microsoft powerpoint,3
+N,microsoft powerpoint,notepad,3
+NO_PROCESS,google chrome,powershell,3
+NO_PROCESS,windows explorer,notepad,3
+NO_PROCESS,windowsterminal,windows explorer,3
+O,google chrome,settings,3
+O,settings,google chrome,3
+A,notepad,settings,2
+A,settings,notepad,2
+A,microsoft powerpoint,google chrome,2
+A,notepad,windowsterminal,2
+A,windowsterminal,procmine-desktop-agent,2
+A,windows explorer,windowsterminal,2
+A,windowsterminal,windows explorer,2
+A,windows explorer,procmine-desktop-agent,2
+A,notepad,procmine-desktop-agent,2
+B,microsoft word,notepad,2
+B,notepad,windows explorer,2
+B,windows explorer,procmine-desktop-agent,2
+B,notepad,settings,2
+B,procmine-desktop-agent,windows explorer,2
+B,notepad,procmine-desktop-agent,2
+C,procmine-desktop-agent,google chrome,2
+C,microsoft powerpoint,google chrome,2
+C,google chrome,settings,2
+C,settings,google chrome,2
+D,notepad,windows explorer,2
+D,microsoft powerpoint,notepad,2
+D,notepad,ms-teams,2
+D,ms-teams,google chrome,2
+F,windowsterminal,notepad,2
+F,notepad,windowsterminal,2
+F,google chrome,settings,2
+F,google chrome,procmine-desktop-agent,2
+F,windows explorer,claude,2
+F,claude,windows explorer,2
+F,microsoft excel,notepad,2
+G,microsoft word,notepad,2
+G,google chrome,settings,2
+G,settings,google chrome,2
+G,windowsterminal,procmine-desktop-agent,2
+G,notepad,windows explorer,2
+G,windowsterminal,windows explorer,2
+G,notepad,procmine-desktop-agent,2
+H,google chrome,windowsterminal,2
+H,google chrome,procmine-desktop-agent,2
+I,google chrome,settings,2
+I,settings,google chrome,2
+I,google chrome,windows explorer,2
+I,windows explorer,procmine-desktop-agent,2
+I,google chrome,windowsterminal,2
+I,windowsterminal,google chrome,2
+J,google chrome,settings,2
+J,procmine-desktop-agent,windows explorer,2
+J,windows explorer,procmine-desktop-agent,2
+J,procmine-desktop-agent,google chrome,2
+J,notepad,procmine-desktop-agent,2
+J,google chrome,olk,2
+J,olk,google chrome,2
+J,google chrome,microsoft excel,2
+J,microsoft excel,google chrome,2
+K,procmine-desktop-agent,windowsterminal,2
+K,notepad,procmine-desktop-agent,2
+K,windows explorer,procmine-desktop-agent,2
+L,procmine-desktop-agent,windows explorer,2
+L,windows explorer,notepad,2
+L,google chrome,microsoft excel,2
+L,microsoft excel,google chrome,2
+M,google chrome,settings,2
+M,microsoft powerpoint,notepad,2
+N,google chrome,microsoft word,2
+N,microsoft word,google chrome,2
+N,windows explorer,windowsterminal,2
+N,windowsterminal,windows explorer,2
+N,windows explorer,procmine-desktop-agent,2
+N,procmine-desktop-agent,google chrome,2
+N,notepad,settings,2
+N,procmine-desktop-agent,windows explorer,2
+NO_PROCESS,procmine-desktop-agent,google chrome,2
+NO_PROCESS,settings,windowsterminal,2
+O,google chrome,microsoft word,2
+O,microsoft word,google chrome,2
+O,procmine-desktop-agent,google chrome,2
+A,settings,prl_cc,1
+A,prl_cc,google chrome,1
+A,notepad,microsoft powerpoint,1
+A,notepad,prl_cc,1
+A,prl_cc,settings,1
+A,settings,microsoft word,1
+A,google chrome,windowsterminal,1
+A,windowsterminal,google chrome,1
+A,windows explorer,microsoft excel,1
+A,google chrome,procmine-desktop-agent,1
+B,notepad,windowsterminal,1
+B,windowsterminal,google chrome,1
+B,google chrome,olk,1
+B,olk,google chrome,1
+B,windowsterminal,notepad,1
+B,microsoft powerpoint,google chrome,1
+B,procmine-desktop-agent,microsoft excel,1
+B,microsoft excel,google chrome,1
+C,windows explorer,windowsterminal,1
+C,windowsterminal,windows explorer,1
+C,windows explorer,procmine-desktop-agent,1
+C,microsoft powerpoint,notepad,1
+C,windows explorer,powershell,1
+C,powershell,windows explorer,1
+C,google chrome,procmine-desktop-agent,1
+C,procmine-desktop-agent,windows explorer,1
+C,notepad,windowsterminal,1
+C,windowsterminal,google chrome,1
+C,notepad,procmine-desktop-agent,1
+C,google chrome,olk,1
+C,olk,google chrome,1
+C,google chrome,microsoft excel,1
+C,microsoft excel,google chrome,1
+D,windowsterminal,google chrome,1
+D,notepad,windowsterminal,1
+D,settings,prl_cc,1
+D,prl_cc,google chrome,1
+D,microsoft powerpoint,windowsterminal,1
+D,google chrome,asuskeyboardhost,1
+D,asuskeyboardhost,google chrome,1
+D,google chrome,olk,1
+D,olk,google chrome,1
+D,windows explorer,procmine-desktop-agent,1
+E,google chrome,settings,1
+E,settings,google chrome,1
+E,google chrome,windows explorer,1
+E,windows explorer,google chrome,1
+E,google chrome,microsoft word,1
+E,microsoft word,google chrome,1
+E,google chrome,olk,1
+E,olk,windows explorer,1
+E,windows explorer,olk,1
+E,olk,google chrome,1
+E,notepad,procmine-desktop-agent,1
+E,procmine-desktop-agent,windows explorer,1
+E,windows explorer,procmine-desktop-agent,1
+E,procmine-desktop-agent,windowsterminal,1
+E,windowsterminal,windows explorer,1
+E,windows explorer,windowsterminal,1
+F,google chrome,microsoft outlook,1
+F,microsoft outlook,windows explorer,1
+F,microsoft excel,windows explorer,1
+F,windowsterminal,microsoft excel,1
+F,microsoft powerpoint,google chrome,1
+F,procmine-desktop-agent,windowsterminal,1
+F,notepad,procmine-desktop-agent,1
+F,notepad,settings,1
+F,procmine-desktop-agent,microsoft excel,1
+G,windowsterminal,notepad,1
+G,windows explorer,notepad,1
+G,notepad,windowsterminal,1
+G,google chrome,microsoft excel,1
+G,microsoft excel,google chrome,1
+G,google chrome,procmine-desktop-agent,1
+G,procmine-desktop-agent,windows explorer,1
+H,microsoft excel,google chrome,1
+H,notepad,windows explorer,1
+H,notepad,windowsterminal,1
+H,windowsterminal,windows explorer,1
+H,windowsterminal,procmine-desktop-agent,1
+H,procmine-desktop-agent,google chrome,1
+H,google chrome,olk,1
+H,olk,google chrome,1
+H,notepad,procmine-desktop-agent,1
+I,procmine-desktop-agent,windows explorer,1
+I,procmine-desktop-agent,google chrome,1
+I,google chrome,microsoft word,1
+I,microsoft word,notepad,1
+I,microsoft powerpoint,ms-teams,1
+I,ms-teams,google chrome,1
+I,windows explorer,olk,1
+I,olk,google chrome,1
+J,google chrome,procmine-desktop-agent,1
+J,procmine-desktop-agent,powershell,1
+J,powershell,google chrome,1
+J,windowsterminal,procmine-desktop-agent,1
+J,notepad,settings,1
+J,microsoft powerpoint,google chrome,1
+K,notepad,windowsterminal,1
+K,windowsterminal,windows explorer,1
+K,windows explorer,windowsterminal,1
+K,windowsterminal,procmine-desktop-agent,1
+K,google chrome,windowsterminal,1
+K,notepad,settings,1
+K,settings,google chrome,1
+K,microsoft powerpoint,google chrome,1
+L,google chrome,microsoft word,1
+L,microsoft word,google chrome,1
+L,google chrome,settings,1
+L,settings,google chrome,1
+L,notepad,windows explorer,1
+L,google chrome,procmine-desktop-agent,1
+L,microsoft powerpoint,google chrome,1
+L,microsoft powerpoint,procmine-desktop-agent,1
+M,google chrome,windowsterminal,1
+M,windowsterminal,google chrome,1
+M,notepad,settings,1
+M,google chrome,microsoft excel,1
+M,microsoft excel,google chrome,1
+M,google chrome,procmine-desktop-agent,1
+M,procmine-desktop-agent,windows explorer,1
+M,microsoft powerpoint,google chrome,1
+M,windows explorer,procmine-desktop-agent,1
+N,notepad,windows explorer,1
+N,google chrome,microsoft excel,1
+N,microsoft excel,google chrome,1
+N,google chrome,olk,1
+N,olk,procmine-desktop-agent,1
+N,notepad,procmine-desktop-agent,1
+N,google chrome,windowsterminal,1
+N,windowsterminal,google chrome,1
+N,google chrome,procmine-desktop-agent,1
+N,settings,notepad,1
+NO_PROCESS,microsoft excel,powershell,1
+NO_PROCESS,windows explorer,google chrome,1
+NO_PROCESS,google chrome,microsoft word,1
+NO_PROCESS,microsoft word,notepad,1
+NO_PROCESS,windowsterminal,searchhost,1
+NO_PROCESS,searchhost,windowsterminal,1
+NO_PROCESS,notepad,settings,1
+NO_PROCESS,google chrome,settings,1
+NO_PROCESS,microsoft excel,windows explorer,1
+NO_PROCESS,google chrome,procmine-desktop-agent,1
+NO_PROCESS,procmine-desktop-agent,windows explorer,1
+NO_PROCESS,windowsterminal,powershell,1
+O,notepad,windows explorer,1
+O,windows explorer,windowsterminal,1
+O,windowsterminal,windows explorer,1
+O,windows explorer,procmine-desktop-agent,1
+O,notepad,windowsterminal,1
+O,windowsterminal,procmine-desktop-agent,1

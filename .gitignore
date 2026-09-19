@@ -1,0 +1,35 @@
+# Raw datasets
+data/
+
+# Large generated Dataset A artifact
+outputs/dataset_a/dataset_a_labeled_events.jsonl
+
+# Large intermediate Dataset B analysis
+outputs/dataset_b/dataset_b_task_start_signal_analysis.json
+
+# Old Dataset A experimental predictions
+outputs/dataset_a/dataset_a_predicted_segments_v1.jsonl
+outputs/dataset_a/dataset_a_predicted_segments_v2.jsonl
+outputs/dataset_a/dataset_a_predicted_segments_v3.jsonl
+outputs/dataset_a/dataset_a_predicted_segments_v4.jsonl
+outputs/dataset_a/dataset_a_predicted_segments_v5.jsonl
+outputs/dataset_a/dataset_a_predicted_segments_v6.jsonl
+outputs/dataset_a/dataset_a_predicted_segments_v8.jsonl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local environments
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

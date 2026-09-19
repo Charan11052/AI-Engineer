@@ -1,0 +1,157 @@
+process_code,application,event_count,share
+A,google chrome,10581,0.6637
+A,notepad,4078,0.2558
+A,microsoft powerpoint,425,0.0267
+A,microsoft word,413,0.0259
+A,windows explorer,178,0.0112
+A,microsoft excel,131,0.0082
+A,prl_cc,43,0.0027
+A,windowsterminal,41,0.0026
+A,procmine-desktop-agent,36,0.0023
+A,settings,16,0.001
+B,google chrome,13538,0.7794
+B,notepad,2943,0.1694
+B,microsoft word,309,0.0178
+B,microsoft powerpoint,231,0.0133
+B,windowsterminal,149,0.0086
+B,windows explorer,112,0.0064
+B,microsoft excel,32,0.0018
+B,olk,28,0.0016
+B,settings,17,0.001
+B,procmine-desktop-agent,10,0.0006
+C,google chrome,6445,0.7014
+C,notepad,1368,0.1489
+C,microsoft word,942,0.1025
+C,windows explorer,298,0.0324
+C,microsoft powerpoint,66,0.0072
+C,microsoft excel,32,0.0035
+C,olk,23,0.0025
+C,settings,5,0.0005
+C,windowsterminal,4,0.0004
+C,procmine-desktop-agent,4,0.0004
+C,powershell,2,0.0002
+D,google chrome,6316,0.6736
+D,notepad,2244,0.2393
+D,microsoft word,361,0.0385
+D,windows explorer,251,0.0268
+D,ms-teams,63,0.0067
+D,windowsterminal,54,0.0058
+D,microsoft powerpoint,51,0.0054
+D,settings,17,0.0018
+D,olk,10,0.0011
+D,procmine-desktop-agent,6,0.0006
+D,prl_cc,3,0.0003
+D,asuskeyboardhost,1,0.0001
+E,google chrome,2477,0.6909
+E,notepad,897,0.2502
+E,microsoft powerpoint,80,0.0223
+E,olk,52,0.0145
+E,microsoft word,51,0.0142
+E,windows explorer,21,0.0059
+E,windowsterminal,3,0.0008
+E,settings,2,0.0006
+E,procmine-desktop-agent,2,0.0006
+F,google chrome,15808,0.7189
+F,notepad,3897,0.1772
+F,microsoft word,774,0.0352
+F,windows explorer,538,0.0245
+F,microsoft excel,355,0.0161
+F,microsoft powerpoint,341,0.0155
+F,windowsterminal,231,0.0105
+F,procmine-desktop-agent,18,0.0008
+F,claude,16,0.0007
+F,microsoft outlook,6,0.0003
+F,settings,5,0.0002
+G,google chrome,9619,0.774
+G,notepad,2072,0.1667
+G,microsoft powerpoint,285,0.0229
+G,microsoft word,203,0.0163
+G,windowsterminal,110,0.0089
+G,windows explorer,75,0.006
+G,microsoft excel,29,0.0023
+G,procmine-desktop-agent,28,0.0023
+G,settings,6,0.0005
+H,google chrome,9367,0.7448
+H,notepad,2298,0.1827
+H,microsoft word,468,0.0372
+H,microsoft powerpoint,180,0.0143
+H,windowsterminal,140,0.0111
+H,windows explorer,53,0.0042
+H,microsoft excel,30,0.0024
+H,olk,22,0.0017
+H,settings,14,0.0011
+H,procmine-desktop-agent,4,0.0003
+I,google chrome,4076,0.6683
+I,notepad,1022,0.1676
+I,microsoft powerpoint,901,0.1477
+I,windowsterminal,48,0.0079
+I,ms-teams,25,0.0041
+I,windows explorer,9,0.0015
+I,olk,7,0.0011
+I,settings,5,0.0008
+I,procmine-desktop-agent,3,0.0005
+I,microsoft word,3,0.0005
+J,google chrome,8313,0.7552
+J,notepad,1912,0.1737
+J,microsoft word,417,0.0379
+J,microsoft powerpoint,178,0.0162
+J,windowsterminal,59,0.0054
+J,procmine-desktop-agent,38,0.0035
+J,olk,38,0.0035
+J,microsoft excel,24,0.0022
+J,windows explorer,21,0.0019
+J,settings,5,0.0005
+J,powershell,3,0.0003
+K,google chrome,8485,0.7719
+K,notepad,1801,0.1638
+K,microsoft word,355,0.0323
+K,microsoft powerpoint,147,0.0134
+K,windowsterminal,93,0.0085
+K,procmine-desktop-agent,70,0.0064
+K,windows explorer,39,0.0035
+K,settings,2,0.0002
+L,google chrome,7563,0.8373
+L,notepad,1168,0.1293
+L,windows explorer,111,0.0123
+L,microsoft powerpoint,105,0.0116
+L,microsoft word,30,0.0033
+L,procmine-desktop-agent,30,0.0033
+L,microsoft excel,23,0.0025
+L,settings,3,0.0003
+M,google chrome,4450,0.7143
+M,notepad,847,0.136
+M,microsoft word,814,0.1307
+M,microsoft powerpoint,36,0.0058
+M,windowsterminal,34,0.0055
+M,microsoft excel,32,0.0051
+M,windows explorer,9,0.0014
+M,settings,6,0.001
+M,procmine-desktop-agent,2,0.0003
+N,google chrome,7658,0.706
+N,notepad,2833,0.2612
+N,microsoft word,102,0.0094
+N,windows explorer,96,0.0089
+N,microsoft powerpoint,65,0.006
+N,windowsterminal,39,0.0036
+N,microsoft excel,32,0.003
+N,settings,11,0.001
+N,procmine-desktop-agent,9,0.0008
+N,olk,2,0.0002
+NO_PROCESS,windowsterminal,677,0.4179
+NO_PROCESS,google chrome,389,0.2401
+NO_PROCESS,notepad,199,0.1228
+NO_PROCESS,microsoft excel,167,0.1031
+NO_PROCESS,windows explorer,94,0.058
+NO_PROCESS,procmine-desktop-agent,58,0.0358
+NO_PROCESS,microsoft word,18,0.0111
+NO_PROCESS,powershell,10,0.0062
+NO_PROCESS,settings,6,0.0037
+NO_PROCESS,searchhost,2,0.0012
+O,google chrome,3049,0.7607
+O,notepad,655,0.1634
+O,microsoft powerpoint,143,0.0357
+O,microsoft word,105,0.0262
+O,windows explorer,43,0.0107
+O,settings,6,0.0015
+O,windowsterminal,5,0.0012
+O,procmine-desktop-agent,2,0.0005

@@ -1,0 +1,222 @@
+{
+  "sessions": [
+    {
+      "session_id": "chunk_20260701-1630-CHAITANYA0BCF",
+      "events": 1613,
+      "unique_event_types": 18,
+      "unique_apps": 8,
+      "text_events": 56,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1700-CHAITANYA0BCF",
+      "events": 1996,
+      "unique_event_types": 16,
+      "unique_apps": 9,
+      "text_events": 78,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1730-CHAITANYA0BCF",
+      "events": 19,
+      "unique_event_types": 8,
+      "unique_apps": 5,
+      "text_events": 1,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1730-SIDDHIGUPTAB00B",
+      "events": 1439,
+      "unique_event_types": 17,
+      "unique_apps": 8,
+      "text_events": 74,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1730-NEELA9BAF",
+      "events": 1136,
+      "unique_event_types": 19,
+      "unique_apps": 10,
+      "text_events": 55,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1730-LAPTOP-76QMG9DE",
+      "events": 842,
+      "unique_event_types": 15,
+      "unique_apps": 6,
+      "text_events": 47,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1800-LAPTOP-76QMG9DE",
+      "events": 708,
+      "unique_event_types": 16,
+      "unique_apps": 6,
+      "text_events": 27,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1730-SIDDHIGUPTAB00B",
+      "events": 260,
+      "unique_event_types": 16,
+      "unique_apps": 6,
+      "text_events": 15,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1800-SIDDHIGUPTAB00B",
+      "events": 1049,
+      "unique_event_types": 16,
+      "unique_apps": 7,
+      "text_events": 47,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1800-NEELA9BAF",
+      "events": 1349,
+      "unique_event_types": 17,
+      "unique_apps": 7,
+      "text_events": 41,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1800-LAPTOP-76QMG9DE",
+      "events": 1518,
+      "unique_event_types": 18,
+      "unique_apps": 9,
+      "text_events": 83,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1800-SIDDHIGUPTAB00B",
+      "events": 1165,
+      "unique_event_types": 18,
+      "unique_apps": 8,
+      "text_events": 59,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1800-NEELA9BAF",
+      "events": 352,
+      "unique_event_types": 16,
+      "unique_apps": 7,
+      "text_events": 17,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1830-NEELA9BAF",
+      "events": 649,
+      "unique_event_types": 17,
+      "unique_apps": 8,
+      "text_events": 29,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1830-LAPTOP-76QMG9DE",
+      "events": 781,
+      "unique_event_types": 17,
+      "unique_apps": 7,
+      "text_events": 41,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1830-LAPTOP-76QMG9DE",
+      "events": 1895,
+      "unique_event_types": 17,
+      "unique_apps": 8,
+      "text_events": 89,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1900-NEELA9BAF",
+      "events": 1146,
+      "unique_event_types": 18,
+      "unique_apps": 8,
+      "text_events": 58,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1900-LAPTOP-76QMG9DE",
+      "events": 1562,
+      "unique_event_types": 18,
+      "unique_apps": 8,
+      "text_events": 63,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1900-NEELA9BAF",
+      "events": 409,
+      "unique_event_types": 10,
+      "unique_apps": 6,
+      "text_events": 25,
+      "first_timestamp": null,
+      "last_timestamp": null
+    },
+    {
+      "session_id": "chunk_20260701-1930-NEELA9BAF",
+      "events": 589,
+      "unique_event_types": 13,
+      "unique_apps": 6,
+      "text_events": 34,
+      "first_timestamp": null,
+      "last_timestamp": null
+    }
+  ],
+  "total_events": 20477,
+  "events_with_text": 939,
+  "event_types": {
+    "session_start": 15,
+    "app_switch": 1654,
+    "screenshot_smart": 4759,
+    "mouse_click": 2133,
+    "keystroke": 4678,
+    "window_state_change": 120,
+    "window_title_change": 186,
+    "extension_connected": 42,
+    "browser_navigation": 204,
+    "browser_error": 38,
+    "browser_click": 1914,
+    "shortcut": 1386,
+    "mouse_scroll": 1724,
+    "clipboard_change": 872,
+    "browser_form_input": 608,
+    "text_input_complete": 77,
+    "extension_disconnected": 42,
+    "session_end": 15,
+    "upload_started": 5,
+    "mouse_double_click": 1,
+    "upload_completed": 4
+  },
+  "applications": {
+    "unknown": 125,
+    "windowsterminal": 407,
+    "microsoft edge": 13300,
+    "microsoft word": 3704,
+    "microsoft excel": 1201,
+    "notepad": 599,
+    "windows explorer": 78,
+    "procmine-desktop-agent": 205,
+    "ms-teams": 73,
+    "prl_cc": 28,
+    "openwith": 757
+  }
+}

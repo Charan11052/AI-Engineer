@@ -1,0 +1,114 @@
+{
+  "v8_segments": 173,
+  "raw_event_files": 20,
+  "raw_events": 20477,
+  "coverage": {
+    "raw_duration_ms": 13485537,
+    "covered_duration_ms": 5645598,
+    "coverage_fraction": 0.4186409484472142,
+    "coverage_percent": 41.86409484472142,
+    "chunks_with_segments": 13,
+    "missing_segment_chunks": []
+  },
+  "a_b_a": {
+    "sessions": 5,
+    "patterns": 7,
+    "examples": [
+      {
+        "session": "ses_20260701-173246-SIDDHIGUPTAB00B",
+        "tasks": [
+          "LOGISTICS_ORDER",
+          "HR_ONBOARDING",
+          "LOGISTICS_ORDER"
+        ],
+        "segments": [
+          "ses_20260701-173246-SIDDHIGUPTAB00B__chunk_20260701-1730-SIDDHIGUPTAB00B__segment_0001",
+          "ses_20260701-173246-SIDDHIGUPTAB00B__chunk_20260701-1730-SIDDHIGUPTAB00B__segment_0002",
+          "ses_20260701-173246-SIDDHIGUPTAB00B__chunk_20260701-1730-SIDDHIGUPTAB00B__segment_0003"
+        ]
+      },
+      {
+        "session": "ses_20260701-175747-SIDDHIGUPTAB00B",
+        "tasks": [
+          "LOGISTICS_INVENTORY",
+          "HR_ATTENDANCE",
+          "LOGISTICS_INVENTORY"
+        ],
+        "segments": [
+          "ses_20260701-175747-SIDDHIGUPTAB00B__chunk_20260701-1730-SIDDHIGUPTAB00B__segment_0003",
+          "ses_20260701-175747-SIDDHIGUPTAB00B__chunk_20260701-1800-SIDDHIGUPTAB00B__segment_0001",
+          "ses_20260701-175747-SIDDHIGUPTAB00B__chunk_20260701-1800-SIDDHIGUPTAB00B__segment_0002"
+        ]
+      },
+      {
+        "session": "ses_20260701-180923-NEELA9BAF",
+        "tasks": [
+          "HR_ONBOARDING",
+          "LOGISTICS_ORDER",
+          "HR_ONBOARDING"
+        ],
+        "segments": [
+          "ses_20260701-180923-NEELA9BAF__chunk_20260701-1800-NEELA9BAF__segment_0003",
+          "ses_20260701-180923-NEELA9BAF__chunk_20260701-1800-NEELA9BAF__segment_0004",
+          "ses_20260701-180923-NEELA9BAF__chunk_20260701-1800-NEELA9BAF__segment_0005"
+        ]
+      },
+      {
+        "session": "ses_20260701-191537-LAPTOP-76QMG9DE",
+        "tasks": [
+          "HR_PAYROLL",
+          "LOGISTICS_INVENTORY",
+          "HR_PAYROLL"
+        ],
+        "segments": [
+          "ses_20260701-191537-LAPTOP-76QMG9DE__chunk_20260701-1900-LAPTOP-76QMG9DE__segment_0002",
+          "ses_20260701-191537-LAPTOP-76QMG9DE__chunk_20260701-1900-LAPTOP-76QMG9DE__segment_0003",
+          "ses_20260701-191537-LAPTOP-76QMG9DE__chunk_20260701-1900-LAPTOP-76QMG9DE__segment_0004"
+        ]
+      },
+      {
+        "session": "ses_20260701-191537-LAPTOP-76QMG9DE",
+        "tasks": [
+          "LOGISTICS_INVENTORY",
+          "HR_PAYROLL",
+          "LOGISTICS_INVENTORY"
+        ],
+        "segments": [
+          "ses_20260701-191537-LAPTOP-76QMG9DE__chunk_20260701-1900-LAPTOP-76QMG9DE__segment_0003",
+          "ses_20260701-191537-LAPTOP-76QMG9DE__chunk_20260701-1900-LAPTOP-76QMG9DE__segment_0004",
+          "ses_20260701-191537-LAPTOP-76QMG9DE__chunk_20260701-1900-LAPTOP-76QMG9DE__segment_0005"
+        ]
+      },
+      {
+        "session": "ses_20260701-192455-NEELA9BAF",
+        "tasks": [
+          "LOGISTICS_INVENTORY",
+          "HR_ONBOARDING",
+          "LOGISTICS_INVENTORY"
+        ],
+        "segments": [
+          "ses_20260701-192455-NEELA9BAF__chunk_20260701-1900-NEELA9BAF__segment_0009",
+          "ses_20260701-192455-NEELA9BAF__chunk_20260701-1930-NEELA9BAF__segment_0001",
+          "ses_20260701-192455-NEELA9BAF__chunk_20260701-1930-NEELA9BAF__segment_0002"
+        ]
+      },
+      {
+        "session": "ses_20260701-192455-NEELA9BAF",
+        "tasks": [
+          "HR_ONBOARDING",
+          "LOGISTICS_INVENTORY",
+          "HR_ONBOARDING"
+        ],
+        "segments": [
+          "ses_20260701-192455-NEELA9BAF__chunk_20260701-1930-NEELA9BAF__segment_0001",
+          "ses_20260701-192455-NEELA9BAF__chunk_20260701-1930-NEELA9BAF__segment_0002",
+          "ses_20260701-192455-NEELA9BAF__chunk_20260701-1930-NEELA9BAF__segment_0003"
+        ]
+      }
+    ]
+  },
+  "overlap_check": {
+    "overlapping_pairs": 0,
+    "examples": []
+  }
+}

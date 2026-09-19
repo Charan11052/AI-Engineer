@@ -1,0 +1,142 @@
+[
+  {
+    "task": "FINANCE_INVOICE",
+    "executions": 29,
+    "total_duration_seconds": 428.74,
+    "applications": [
+      "Microsoft Edge",
+      "Microsoft Word",
+      "OpenWith",
+      "unknown"
+    ],
+    "frequency_score": 4.68,
+    "time_score": 5.0,
+    "repeatability_score": 4.81,
+    "rule_clarity_score": 5,
+    "data_readiness_score": 5,
+    "cross_app_score": 5,
+    "total_score": 29.48
+  },
+  {
+    "task": "LOGISTICS_ORDER",
+    "executions": 26,
+    "total_duration_seconds": 358.68,
+    "applications": [
+      "Microsoft Edge",
+      "Microsoft Word",
+      "WindowsTerminal",
+      "ms-teams",
+      "prl_cc",
+      "procmine-desktop-agent",
+      "unknown"
+    ],
+    "frequency_score": 4.19,
+    "time_score": 4.18,
+    "repeatability_score": 4.52,
+    "rule_clarity_score": 4,
+    "data_readiness_score": 4,
+    "cross_app_score": 5,
+    "total_score": 25.89
+  },
+  {
+    "task": "FINANCE_PAYMENT",
+    "executions": 21,
+    "total_duration_seconds": 247.57,
+    "applications": [
+      "Microsoft Edge",
+      "Microsoft Word",
+      "Notepad",
+      "WindowsTerminal",
+      "procmine-desktop-agent",
+      "unknown"
+    ],
+    "frequency_score": 3.39,
+    "time_score": 2.89,
+    "repeatability_score": 4.03,
+    "rule_clarity_score": 4,
+    "data_readiness_score": 4,
+    "cross_app_score": 5,
+    "total_score": 23.31
+  },
+  {
+    "task": "LOGISTICS_INVENTORY",
+    "executions": 31,
+    "total_duration_seconds": 18.84,
+    "applications": [
+      "Microsoft Edge"
+    ],
+    "frequency_score": 5.0,
+    "time_score": 0.22,
+    "repeatability_score": 5,
+    "rule_clarity_score": 3,
+    "data_readiness_score": 4,
+    "cross_app_score": 2,
+    "total_score": 19.22
+  },
+  {
+    "task": "HR_ONBOARDING",
+    "executions": 22,
+    "total_duration_seconds": 20.69,
+    "applications": [
+      "Microsoft Edge",
+      "Microsoft Word",
+      "unknown"
+    ],
+    "frequency_score": 3.55,
+    "time_score": 0.24,
+    "repeatability_score": 4.13,
+    "rule_clarity_score": 3,
+    "data_readiness_score": 3,
+    "cross_app_score": 5,
+    "total_score": 18.92
+  },
+  {
+    "task": "HR_ATTENDANCE",
+    "executions": 23,
+    "total_duration_seconds": 13.81,
+    "applications": [
+      "Microsoft Edge",
+      "unknown"
+    ],
+    "frequency_score": 3.71,
+    "time_score": 0.16,
+    "repeatability_score": 4.23,
+    "rule_clarity_score": 3,
+    "data_readiness_score": 3,
+    "cross_app_score": 4,
+    "total_score": 18.1
+  },
+  {
+    "task": "FINANCE_BUDGET",
+    "executions": 5,
+    "total_duration_seconds": 95.67,
+    "applications": [
+      "Microsoft Edge",
+      "Microsoft Excel",
+      "OpenWith"
+    ],
+    "frequency_score": 0.81,
+    "time_score": 1.12,
+    "repeatability_score": 2.48,
+    "rule_clarity_score": 4,
+    "data_readiness_score": 4,
+    "cross_app_score": 5,
+    "total_score": 17.41
+  },
+  {
+    "task": "HR_PAYROLL",
+    "executions": 16,
+    "total_duration_seconds": 10.67,
+    "applications": [
+      "Microsoft Edge",
+      "Microsoft Word"
+    ],
+    "frequency_score": 2.58,
+    "time_score": 0.12,
+    "repeatability_score": 3.55,
+    "rule_clarity_score": 3,
+    "data_readiness_score": 3,
+    "cross_app_score": 4,
+    "total_score": 16.25
+  }
+]

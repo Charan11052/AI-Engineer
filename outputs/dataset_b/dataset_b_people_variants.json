@@ -1,0 +1,561 @@
+{
+  "unique_sessions": 15,
+  "session_summary": [
+    {
+      "session": "ses_20260701-164424-CHAITANYA0BCF",
+      "executions": 12,
+      "tasks": {
+        "FINANCE_INVOICE": 5,
+        "HR_PAYROLL": 2,
+        "LOGISTICS_ORDER": 5
+      }
+    },
+    {
+      "session": "ses_20260701-171614-CHAITANYA0BCF",
+      "executions": 18,
+      "tasks": {
+        "LOGISTICS_ORDER": 4,
+        "HR_PAYROLL": 5,
+        "LOGISTICS_INVENTORY": 1,
+        "HR_ONBOARDING": 3,
+        "FINANCE_BUDGET": 3,
+        "FINANCE_PAYMENT": 2
+      }
+    },
+    {
+      "session": "ses_20260701-173246-SIDDHIGUPTAB00B",
+      "executions": 7,
+      "tasks": {
+        "LOGISTICS_ORDER": 3,
+        "HR_ONBOARDING": 4
+      }
+    },
+    {
+      "session": "ses_20260701-173642-NEELA9BAF",
+      "executions": 13,
+      "tasks": {
+        "LOGISTICS_ORDER": 2,
+        "LOGISTICS_INVENTORY": 9,
+        "HR_PAYROLL": 2
+      }
+    },
+    {
+      "session": "ses_20260701-175258-LAPTOP-76QMG9DE",
+      "executions": 12,
+      "tasks": {
+        "FINANCE_PAYMENT": 7,
+        "HR_PAYROLL": 2,
+        "HR_ONBOARDING": 1,
+        "FINANCE_INVOICE": 2
+      }
+    },
+    {
+      "session": "ses_20260701-175747-SIDDHIGUPTAB00B",
+      "executions": 11,
+      "tasks": {
+        "LOGISTICS_INVENTORY": 4,
+        "HR_ATTENDANCE": 2,
+        "FINANCE_INVOICE": 3,
+        "LOGISTICS_ORDER": 2
+      }
+    },
+    {
+      "session": "ses_20260701-180923-NEELA9BAF",
+      "executions": 7,
+      "tasks": {
+        "FINANCE_PAYMENT": 2,
+        "HR_ONBOARDING": 2,
+        "LOGISTICS_ORDER": 1,
+        "HR_ATTENDANCE": 2
+      }
+    },
+    {
+      "session": "ses_20260701-181413-LAPTOP-76QMG9DE",
+      "executions": 13,
+      "tasks": {
+        "HR_ATTENDANCE": 5,
+        "FINANCE_PAYMENT": 4,
+        "FINANCE_INVOICE": 4
+      }
+    },
+    {
+      "session": "ses_20260701-181913-SIDDHIGUPTAB00B",
+      "executions": 12,
+      "tasks": {
+        "HR_ONBOARDING": 4,
+        "FINANCE_INVOICE": 4,
+        "HR_ATTENDANCE": 4
+      }
+    },
+    {
+      "session": "ses_20260701-182634-NEELA9BAF",
+      "executions": 6,
+      "tasks": {
+        "FINANCE_INVOICE": 3,
+        "HR_ATTENDANCE": 3
+      }
+    },
+    {
+      "session": "ses_20260701-183232-LAPTOP-76QMG9DE",
+      "executions": 12,
+      "tasks": {
+        "LOGISTICS_INVENTORY": 5,
+        "LOGISTICS_ORDER": 7
+      }
+    },
+    {
+      "session": "ses_20260701-184201-LAPTOP-76QMG9DE",
+      "executions": 14,
+      "tasks": {
+        "HR_ONBOARDING": 3,
+        "FINANCE_PAYMENT": 6,
+        "LOGISTICS_ORDER": 2,
+        "LOGISTICS_INVENTORY": 3
+      }
+    },
+    {
+      "session": "ses_20260701-190250-NEELA9BAF",
+      "executions": 9,
+      "tasks": {
+        "FINANCE_INVOICE": 6,
+        "HR_ONBOARDING": 1,
+        "LOGISTICS_INVENTORY": 2
+      }
+    },
+    {
+      "session": "ses_20260701-191537-LAPTOP-76QMG9DE",
+      "executions": 9,
+      "tasks": {
+        "HR_ONBOARDING": 1,
+        "HR_PAYROLL": 2,
+        "LOGISTICS_INVENTORY": 4,
+        "FINANCE_BUDGET": 2
+      }
+    },
+    {
+      "session": "ses_20260701-192455-NEELA9BAF",
+      "executions": 18,
+      "tasks": {
+        "HR_ATTENDANCE": 7,
+        "HR_PAYROLL": 3,
+        "LOGISTICS_INVENTORY": 3,
+        "HR_ONBOARDING": 3,
+        "FINANCE_INVOICE": 2
+      }
+    }
+  ],
+  "task_variants": {
+    "FINANCE_INVOICE": {
+      "distinct_handling_patterns": 8,
+      "patterns": [
+        {
+          "applications": [
+            "Microsoft Word",
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "FINANCE_INVOICE"
+          ],
+          "executions": 7
+        },
+        {
+          "applications": [
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "FINANCE_INVOICE"
+          ],
+          "executions": 5
+        },
+        {
+          "applications": [
+            "Microsoft Edge",
+            "Microsoft Word"
+          ],
+          "supporting_tasks": [
+            "FINANCE_INVOICE"
+          ],
+          "executions": 11
+        },
+        {
+          "applications": [
+            "Microsoft Edge",
+            "OpenWith",
+            "Microsoft Word"
+          ],
+          "supporting_tasks": [
+            "FINANCE_INVOICE"
+          ],
+          "executions": 2
+        },
+        {
+          "applications": [
+            "OpenWith",
+            "Microsoft Edge",
+            "Microsoft Word"
+          ],
+          "supporting_tasks": [
+            "FINANCE_INVOICE"
+          ],
+          "executions": 1
+        },
+        {
+          "applications": [
+            "Microsoft Word",
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "FINANCE_INVOICE",
+            "LOGISTICS_SUPPLIER"
+          ],
+          "executions": 1
+        },
+        {
+          "applications": [
+            "Microsoft Edge",
+            "unknown",
+            "Microsoft Word"
+          ],
+          "supporting_tasks": [
+            "FINANCE_INVOICE",
+            "LOGISTICS_SUPPLIER"
+          ],
+          "executions": 1
+        },
+        {
+          "applications": [
+            "Microsoft Edge",
+            "Microsoft Word"
+          ],
+          "supporting_tasks": [
+            "FINANCE_INVOICE",
+            "LOGISTICS_SUPPLIER"
+          ],
+          "executions": 1
+        }
+      ]
+    },
+    "HR_PAYROLL": {
+      "distinct_handling_patterns": 2,
+      "patterns": [
+        {
+          "applications": [
+            "Microsoft Word",
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "HR_ONBOARDING",
+            "HR_PAYROLL"
+          ],
+          "executions": 2
+        },
+        {
+          "applications": [
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "HR_ONBOARDING",
+            "HR_PAYROLL"
+          ],
+          "executions": 14
+        }
+      ]
+    },
+    "LOGISTICS_ORDER": {
+      "distinct_handling_patterns": 8,
+      "patterns": [
+        {
+          "applications": [
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "LOGISTICS_CONTRACT",
+            "LOGISTICS_ORDER"
+          ],
+          "executions": 7
+        },
+        {
+          "applications": [
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "LOGISTICS_ORDER"
+          ],
+          "executions": 9
+        },
+        {
+          "applications": [
+            "Microsoft Word",
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "LOGISTICS_ORDER"
+          ],
+          "executions": 4
+        },
+        {
+          "applications": [
+            "Microsoft Word",
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "LOGISTICS_CONTRACT",
+            "LOGISTICS_ORDER"
+          ],
+          "executions": 2
+        },
+        {
+          "applications": [
+            "Microsoft Edge",
+            "ms-teams",
+            "unknown",
+            "procmine-desktop-agent",
+            "prl_cc"
+          ],
+          "supporting_tasks": [
+            "LOGISTICS_CONTRACT",
+            "LOGISTICS_ORDER"
+          ],
+          "executions": 1
+        },
+        {
+          "applications": [
+            "Microsoft Edge",
+            "WindowsTerminal"
+          ],
+          "supporting_tasks": [
+            "LOGISTICS_ORDER"
+          ],
+          "executions": 1
+        },
+        {
+          "applications": [
+            "Microsoft Word",
+            "prl_cc",
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "LOGISTICS_ORDER"
+          ],
+          "executions": 1
+        },
+        {
+          "applications": [
+            "Microsoft Edge",
+            "Microsoft Word"
+          ],
+          "supporting_tasks": [
+            "LOGISTICS_ORDER"
+          ],
+          "executions": 1
+        }
+      ]
+    },
+    "LOGISTICS_INVENTORY": {
+      "distinct_handling_patterns": 1,
+      "patterns": [
+        {
+          "applications": [
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "LOGISTICS_INVENTORY",
+            "LOGISTICS_ORDER"
+          ],
+          "executions": 31
+        }
+      ]
+    },
+    "HR_ONBOARDING": {
+      "distinct_handling_patterns": 5,
+      "patterns": [
+        {
+          "applications": [
+            "Microsoft Word",
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "HR_ONBOARDING",
+            "HR_PAYROLL"
+          ],
+          "executions": 11
+        },
+        {
+          "applications": [
+            "Microsoft Word",
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "HR_ONBOARDING",
+            "HR_PAYROLL",
+            "LOGISTICS_CONTRACT"
+          ],
+          "executions": 3
+        },
+        {
+          "applications": [
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "HR_ONBOARDING",
+            "HR_PAYROLL"
+          ],
+          "executions": 6
+        },
+        {
+          "applications": [
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "HR_ONBOARDING",
+            "HR_PAYROLL",
+            "LOGISTICS_CONTRACT"
+          ],
+          "executions": 1
+        },
+        {
+          "applications": [
+            "Microsoft Word",
+            "unknown",
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "HR_ONBOARDING",
+            "HR_PAYROLL"
+          ],
+          "executions": 1
+        }
+      ]
+    },
+    "FINANCE_BUDGET": {
+      "distinct_handling_patterns": 3,
+      "patterns": [
+        {
+          "applications": [
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "FINANCE_BUDGET"
+          ],
+          "executions": 2
+        },
+        {
+          "applications": [
+            "Microsoft Edge",
+            "Microsoft Excel"
+          ],
+          "supporting_tasks": [
+            "FINANCE_BUDGET"
+          ],
+          "executions": 2
+        },
+        {
+          "applications": [
+            "Microsoft Edge",
+            "OpenWith"
+          ],
+          "supporting_tasks": [
+            "FINANCE_BUDGET"
+          ],
+          "executions": 1
+        }
+      ]
+    },
+    "FINANCE_PAYMENT": {
+      "distinct_handling_patterns": 6,
+      "patterns": [
+        {
+          "applications": [
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "FINANCE_INVOICE",
+            "FINANCE_PAYMENT"
+          ],
+          "executions": 10
+        },
+        {
+          "applications": [
+            "Microsoft Word",
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "FINANCE_INVOICE",
+            "FINANCE_PAYMENT"
+          ],
+          "executions": 7
+        },
+        {
+          "applications": [
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "FINANCE_PAYMENT"
+          ],
+          "executions": 1
+        },
+        {
+          "applications": [
+            "unknown",
+            "WindowsTerminal",
+            "procmine-desktop-agent",
+            "Microsoft Word",
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "FINANCE_PAYMENT"
+          ],
+          "executions": 1
+        },
+        {
+          "applications": [
+            "Notepad",
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "FINANCE_PAYMENT"
+          ],
+          "executions": 1
+        },
+        {
+          "applications": [
+            "Microsoft Word",
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "FINANCE_PAYMENT"
+          ],
+          "executions": 1
+        }
+      ]
+    },
+    "HR_ATTENDANCE": {
+      "distinct_handling_patterns": 2,
+      "patterns": [
+        {
+          "applications": [
+            "Microsoft Edge",
+            "unknown"
+          ],
+          "supporting_tasks": [
+            "HR_ATTENDANCE",
+            "HR_ONBOARDING",
+            "HR_PAYROLL"
+          ],
+          "executions": 1
+        },
+        {
+          "applications": [
+            "Microsoft Edge"
+          ],
+          "supporting_tasks": [
+            "HR_ATTENDANCE",
+            "HR_ONBOARDING",
+            "HR_PAYROLL"
+          ],
+          "executions": 22
+        }
+      ]
+    }
+  }
+}

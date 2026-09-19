@@ -1,0 +1,82 @@
+[
+  {
+    "task": "FINANCE_INVOICE",
+    "executions": 29,
+    "total_seconds": 428.74,
+    "total_minutes": 7.15,
+    "average_seconds": 14.78,
+    "median_seconds": 12.73,
+    "estimated_saved_seconds": 300.12,
+    "estimated_saved_minutes": 5.0
+  },
+  {
+    "task": "LOGISTICS_ORDER",
+    "executions": 26,
+    "total_seconds": 358.68,
+    "total_minutes": 5.98,
+    "average_seconds": 13.8,
+    "median_seconds": 11.12,
+    "estimated_saved_seconds": 251.08,
+    "estimated_saved_minutes": 4.18
+  },
+  {
+    "task": "FINANCE_PAYMENT",
+    "executions": 21,
+    "total_seconds": 247.57,
+    "total_minutes": 4.13,
+    "average_seconds": 11.79,
+    "median_seconds": 11.13,
+    "estimated_saved_seconds": 173.3,
+    "estimated_saved_minutes": 2.89
+  },
+  {
+    "task": "FINANCE_BUDGET",
+    "executions": 5,
+    "total_seconds": 95.67,
+    "total_minutes": 1.59,
+    "average_seconds": 19.13,
+    "median_seconds": 19.05,
+    "estimated_saved_seconds": 66.97,
+    "estimated_saved_minutes": 1.12
+  },
+  {
+    "task": "HR_ONBOARDING",
+    "executions": 22,
+    "total_seconds": 20.69,
+    "total_minutes": 0.34,
+    "average_seconds": 0.94,
+    "median_seconds": 1.0,
+    "estimated_saved_seconds": 14.49,
+    "estimated_saved_minutes": 0.24
+  },
+  {
+    "task": "LOGISTICS_INVENTORY",
+    "executions": 31,
+    "total_seconds": 18.84,
+    "total_minutes": 0.31,
+    "average_seconds": 0.61,
+    "median_seconds": 0.59,
+    "estimated_saved_seconds": 13.19,
+    "estimated_saved_minutes": 0.22
+  },
+  {
+    "task": "HR_ATTENDANCE",
+    "executions": 23,
+    "total_seconds": 13.81,
+    "total_minutes": 0.23,
+    "average_seconds": 0.6,
+    "median_seconds": 0.59,
+    "estimated_saved_seconds": 9.66,
+    "estimated_saved_minutes": 0.16
+  },
+  {
+    "task": "HR_PAYROLL",
+    "executions": 16,
+    "total_seconds": 10.67,
+    "total_minutes": 0.18,
+    "average_seconds": 0.67,
+    "median_seconds": 0.63,
+    "estimated_saved_seconds": 7.47,
+    "estimated_saved_minutes": 0.12
+  }
+]
