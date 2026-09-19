@@ -1,0 +1,38 @@
+{
+  "dataset": "D:\\CHARAN RONGALI\\AI Engineer\\data\\dataset_a",
+  "sessions": 63,
+  "sessions_processed": 63,
+  "sessions_without_manifest": 0,
+  "event_files": 117,
+  "raw_events": 162768,
+  "labeled_events": 162768,
+  "events_inside_process": 161048,
+  "events_outside_process": 1720,
+  "executions": 2009,
+  "process_distribution": {
+    "F": 169,
+    "C": 161,
+    "A": 159,
+    "M": 155,
+    "H": 147,
+    "G": 144,
+    "L": 137,
+    "N": 129,
+    "K": 127,
+    "B": 126,
+    "I": 117,
+    "D": 114,
+    "E": 111,
+    "O": 111,
+    "J": 102
+  },
+  "variant_distribution": {
+    "null": 1147,
+    "std": 339,
+    "reg": 332,
+    "exc": 116,
+    "adj": 75
+  },
+  "alignment_coverage": 0.9894,
+  "errors": []
+}

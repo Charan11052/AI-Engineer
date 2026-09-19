@@ -1,0 +1,2095 @@
+{
+  "method": "independent_idle_gap_segmentation_v1",
+  "prediction_input": "raw data/dataset_a/**/events.jsonl",
+  "gt_used_during_prediction": false,
+  "evaluation_reference": "outputs/dataset_a/dataset_a_execution_intervals.jsonl",
+  "configuration": {
+    "idle_gap_seconds": 8.0,
+    "iou_threshold": 0.5,
+    "boundary_tolerance_seconds": 5.0
+  },
+  "dataset": {
+    "sessions": 63,
+    "predicted_segments": 1639,
+    "ground_truth_valid_intervals": 1752
+  },
+  "overall": {
+    "matched_segments": 199,
+    "false_positive_predictions": 1440,
+    "missed_ground_truth_executions": 1553,
+    "precision": 0.12141549725442342,
+    "recall": 0.11358447488584475,
+    "f1": 0.11736950751990562,
+    "mean_temporal_iou": 0.613896256625405,
+    "mean_start_boundary_error_seconds": 7.00217085427136,
+    "mean_end_boundary_error_seconds": 11.884427135678397,
+    "matched_boundaries_within_5_seconds": 11
+  },
+  "per_session": [
+    {
+      "session_id": "ses_20260630-121953-LAPTOP-R36BQBTE",
+      "predicted_segments": 23,
+      "ground_truth_executions": 28,
+      "matched_segments": 7,
+      "false_positive_predictions": 16,
+      "missed_ground_truth_executions": 21,
+      "precision": 0.30434782608695654,
+      "recall": 0.25,
+      "f1": 0.27450980392156865,
+      "mean_iou": 0.6488125686728559,
+      "mean_start_boundary_error_seconds": 5.384571428571428,
+      "mean_end_boundary_error_seconds": 11.918428571428572,
+      "boundaries_within_5_seconds": 1,
+      "matches": [
+        {
+          "prediction_index": 21,
+          "gt_index": 27,
+          "iou": 0.8862703088734155
+        },
+        {
+          "prediction_index": 11,
+          "gt_index": 16,
+          "iou": 0.7122523989244924
+        },
+        {
+          "prediction_index": 16,
+          "gt_index": 26,
+          "iou": 0.6666345545126752
+        },
+        {
+          "prediction_index": 2,
+          "gt_index": 0,
+          "iou": 0.627581202031975
+        },
+        {
+          "prediction_index": 12,
+          "gt_index": 17,
+          "iou": 0.5730051739687663
+        },
+        {
+          "prediction_index": 5,
+          "gt_index": 5,
+          "iou": 0.5403247009333508
+        },
+        {
+          "prediction_index": 4,
+          "gt_index": 3,
+          "iou": 0.5356196414653157
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260630-124826-CHAITANYA0BCF",
+      "predicted_segments": 22,
+      "ground_truth_executions": 30,
+      "matched_segments": 3,
+      "false_positive_predictions": 19,
+      "missed_ground_truth_executions": 27,
+      "precision": 0.13636363636363635,
+      "recall": 0.1,
+      "f1": 0.11538461538461538,
+      "mean_iou": 0.618223937072577,
+      "mean_start_boundary_error_seconds": 18.590666666666667,
+      "mean_end_boundary_error_seconds": 6.927333333333333,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 3,
+          "gt_index": 2,
+          "iou": 0.717723302338687
+        },
+        {
+          "prediction_index": 18,
+          "gt_index": 27,
+          "iou": 0.5796015834967676
+        },
+        {
+          "prediction_index": 4,
+          "gt_index": 4,
+          "iou": 0.5573469253822764
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260630-125757-LAPTOP-R36BQBTE",
+      "predicted_segments": 18,
+      "ground_truth_executions": 20,
+      "matched_segments": 4,
+      "false_positive_predictions": 14,
+      "missed_ground_truth_executions": 16,
+      "precision": 0.2222222222222222,
+      "recall": 0.2,
+      "f1": 0.2105263157894737,
+      "mean_iou": 0.6427212571966457,
+      "mean_start_boundary_error_seconds": 3.934,
+      "mean_end_boundary_error_seconds": 9.346250000000001,
+      "boundaries_within_5_seconds": 1,
+      "matches": [
+        {
+          "prediction_index": 11,
+          "gt_index": 8,
+          "iou": 0.7018482490272373
+        },
+        {
+          "prediction_index": 7,
+          "gt_index": 5,
+          "iou": 0.6841573567863085
+        },
+        {
+          "prediction_index": 6,
+          "gt_index": 4,
+          "iou": 0.6053736018795558
+        },
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.5795058210934814
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260630-131729-CHAITANYA0BCF",
+      "predicted_segments": 23,
+      "ground_truth_executions": 21,
+      "matched_segments": 4,
+      "false_positive_predictions": 19,
+      "missed_ground_truth_executions": 17,
+      "precision": 0.17391304347826086,
+      "recall": 0.19047619047619047,
+      "f1": 0.1818181818181818,
+      "mean_iou": 0.6367785547859779,
+      "mean_start_boundary_error_seconds": 9.92225,
+      "mean_end_boundary_error_seconds": 9.499500000000001,
+      "boundaries_within_5_seconds": 1,
+      "matches": [
+        {
+          "prediction_index": 8,
+          "gt_index": 8,
+          "iou": 0.8611173687767515
+        },
+        {
+          "prediction_index": 9,
+          "gt_index": 9,
+          "iou": 0.6736931021904817
+        },
+        {
+          "prediction_index": 22,
+          "gt_index": 20,
+          "iou": 0.5086676740750802
+        },
+        {
+          "prediction_index": 18,
+          "gt_index": 18,
+          "iou": 0.5036360741015977
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260630-132737-LAPTOP-R36BQBTE",
+      "predicted_segments": 22,
+      "ground_truth_executions": 25,
+      "matched_segments": 3,
+      "false_positive_predictions": 19,
+      "missed_ground_truth_executions": 22,
+      "precision": 0.13636363636363635,
+      "recall": 0.12,
+      "f1": 0.1276595744680851,
+      "mean_iou": 0.5785032566439966,
+      "mean_start_boundary_error_seconds": 4.236666666666667,
+      "mean_end_boundary_error_seconds": 17.944999999999997,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 12,
+          "gt_index": 7,
+          "iou": 0.6450426844729946
+        },
+        {
+          "prediction_index": 11,
+          "gt_index": 5,
+          "iou": 0.5757154765212559
+        },
+        {
+          "prediction_index": 13,
+          "gt_index": 9,
+          "iou": 0.5147516089377395
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260630-135201-LAPTOP-R36BQBTE",
+      "predicted_segments": 25,
+      "ground_truth_executions": 24,
+      "matched_segments": 1,
+      "false_positive_predictions": 24,
+      "missed_ground_truth_executions": 23,
+      "precision": 0.04,
+      "recall": 0.041666666666666664,
+      "f1": 0.04081632653061224,
+      "mean_iou": 0.5372924029288799,
+      "mean_start_boundary_error_seconds": 3.579,
+      "mean_end_boundary_error_seconds": 16.453,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 4,
+          "gt_index": 3,
+          "iou": 0.5372924029288799
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260630-135451-CHAITANYA0BCF",
+      "predicted_segments": 21,
+      "ground_truth_executions": 30,
+      "matched_segments": 0,
+      "false_positive_predictions": 21,
+      "missed_ground_truth_executions": 30,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mean_iou": 0.0,
+      "mean_start_boundary_error_seconds": null,
+      "mean_end_boundary_error_seconds": null,
+      "boundaries_within_5_seconds": 0,
+      "matches": []
+    },
+    {
+      "session_id": "ses_20260630-145433-JAYESH",
+      "predicted_segments": 22,
+      "ground_truth_executions": 34,
+      "matched_segments": 3,
+      "false_positive_predictions": 19,
+      "missed_ground_truth_executions": 31,
+      "precision": 0.13636363636363635,
+      "recall": 0.08823529411764706,
+      "f1": 0.10714285714285714,
+      "mean_iou": 0.5807328787938618,
+      "mean_start_boundary_error_seconds": 5.856000000000001,
+      "mean_end_boundary_error_seconds": 13.302999999999999,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 16,
+          "gt_index": 25,
+          "iou": 0.6177459956782285
+        },
+        {
+          "prediction_index": 7,
+          "gt_index": 10,
+          "iou": 0.6087357208684284
+        },
+        {
+          "prediction_index": 1,
+          "gt_index": 5,
+          "iou": 0.5157169198349284
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260630-163424-SIDDHIGUPTAB00B",
+      "predicted_segments": 25,
+      "ground_truth_executions": 28,
+      "matched_segments": 3,
+      "false_positive_predictions": 22,
+      "missed_ground_truth_executions": 25,
+      "precision": 0.12,
+      "recall": 0.10714285714285714,
+      "f1": 0.1132075471698113,
+      "mean_iou": 0.6222598794706204,
+      "mean_start_boundary_error_seconds": 6.881,
+      "mean_end_boundary_error_seconds": 11.036000000000001,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 13,
+          "gt_index": 20,
+          "iou": 0.6917260802273362
+        },
+        {
+          "prediction_index": 12,
+          "gt_index": 18,
+          "iou": 0.6466526035305873
+        },
+        {
+          "prediction_index": 10,
+          "gt_index": 16,
+          "iou": 0.528400954653938
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260630-164418-MSI",
+      "predicted_segments": 28,
+      "ground_truth_executions": 30,
+      "matched_segments": 4,
+      "false_positive_predictions": 24,
+      "missed_ground_truth_executions": 26,
+      "precision": 0.14285714285714285,
+      "recall": 0.13333333333333333,
+      "f1": 0.1379310344827586,
+      "mean_iou": 0.6095358876605745,
+      "mean_start_boundary_error_seconds": 7.12,
+      "mean_end_boundary_error_seconds": 12.0925,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 17,
+          "gt_index": 19,
+          "iou": 0.641862186044487
+        },
+        {
+          "prediction_index": 24,
+          "gt_index": 27,
+          "iou": 0.6247310726360004
+        },
+        {
+          "prediction_index": 20,
+          "gt_index": 24,
+          "iou": 0.6111215621355205
+        },
+        {
+          "prediction_index": 18,
+          "gt_index": 21,
+          "iou": 0.5604287298262906
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-005920-yuvraj",
+      "predicted_segments": 28,
+      "ground_truth_executions": 30,
+      "matched_segments": 4,
+      "false_positive_predictions": 24,
+      "missed_ground_truth_executions": 26,
+      "precision": 0.14285714285714285,
+      "recall": 0.13333333333333333,
+      "f1": 0.1379310344827586,
+      "mean_iou": 0.6094667385264452,
+      "mean_start_boundary_error_seconds": 4.164750000000001,
+      "mean_end_boundary_error_seconds": 12.71725,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 18,
+          "gt_index": 28,
+          "iou": 0.6468185047761901
+        },
+        {
+          "prediction_index": 3,
+          "gt_index": 8,
+          "iou": 0.6429400499100458
+        },
+        {
+          "prediction_index": 5,
+          "gt_index": 10,
+          "iou": 0.6259828784585245
+        },
+        {
+          "prediction_index": 10,
+          "gt_index": 24,
+          "iou": 0.5221255209610198
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-014804-yuvraj",
+      "predicted_segments": 21,
+      "ground_truth_executions": 27,
+      "matched_segments": 2,
+      "false_positive_predictions": 19,
+      "missed_ground_truth_executions": 25,
+      "precision": 0.09523809523809523,
+      "recall": 0.07407407407407407,
+      "f1": 0.08333333333333333,
+      "mean_iou": 0.5943305577546758,
+      "mean_start_boundary_error_seconds": 11.977,
+      "mean_end_boundary_error_seconds": 8.4915,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 11,
+          "gt_index": 18,
+          "iou": 0.6374488026272094
+        },
+        {
+          "prediction_index": 8,
+          "gt_index": 14,
+          "iou": 0.5512123128821421
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-022828-yuvraj",
+      "predicted_segments": 22,
+      "ground_truth_executions": 25,
+      "matched_segments": 5,
+      "false_positive_predictions": 17,
+      "missed_ground_truth_executions": 20,
+      "precision": 0.22727272727272727,
+      "recall": 0.2,
+      "f1": 0.21276595744680854,
+      "mean_iou": 0.6569743867269985,
+      "mean_start_boundary_error_seconds": 6.7982,
+      "mean_end_boundary_error_seconds": 10.778799999999999,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 2,
+          "gt_index": 1,
+          "iou": 0.7218326014288523
+        },
+        {
+          "prediction_index": 17,
+          "gt_index": 12,
+          "iou": 0.7163133812680923
+        },
+        {
+          "prediction_index": 15,
+          "gt_index": 9,
+          "iou": 0.7083108403382946
+        },
+        {
+          "prediction_index": 7,
+          "gt_index": 4,
+          "iou": 0.5908170067049182
+        },
+        {
+          "prediction_index": 19,
+          "gt_index": 17,
+          "iou": 0.5475981038948345
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-030836-yuvraj",
+      "predicted_segments": 20,
+      "ground_truth_executions": 24,
+      "matched_segments": 3,
+      "false_positive_predictions": 17,
+      "missed_ground_truth_executions": 21,
+      "precision": 0.15,
+      "recall": 0.125,
+      "f1": 0.13636363636363635,
+      "mean_iou": 0.562232081058955,
+      "mean_start_boundary_error_seconds": 7.978999999999999,
+      "mean_end_boundary_error_seconds": 16.800333333333334,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 14,
+          "gt_index": 17,
+          "iou": 0.5893479976577816
+        },
+        {
+          "prediction_index": 17,
+          "gt_index": 22,
+          "iou": 0.5619711417966559
+        },
+        {
+          "prediction_index": 8,
+          "gt_index": 8,
+          "iou": 0.5353771037224274
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-032825-CHAITANYA0BCF",
+      "predicted_segments": 27,
+      "ground_truth_executions": 26,
+      "matched_segments": 1,
+      "false_positive_predictions": 26,
+      "missed_ground_truth_executions": 25,
+      "precision": 0.037037037037037035,
+      "recall": 0.038461538461538464,
+      "f1": 0.03773584905660377,
+      "mean_iou": 0.5283030193889189,
+      "mean_start_boundary_error_seconds": 10.195,
+      "mean_end_boundary_error_seconds": 13.379,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 21,
+          "gt_index": 16,
+          "iou": 0.5283030193889189
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-035622-SIDDHIGUPTAB00B",
+      "predicted_segments": 40,
+      "ground_truth_executions": 34,
+      "matched_segments": 6,
+      "false_positive_predictions": 34,
+      "missed_ground_truth_executions": 28,
+      "precision": 0.15,
+      "recall": 0.17647058823529413,
+      "f1": 0.16216216216216214,
+      "mean_iou": 0.6200328006707869,
+      "mean_start_boundary_error_seconds": 9.624833333333333,
+      "mean_end_boundary_error_seconds": 9.492666666666667,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 23,
+          "gt_index": 21,
+          "iou": 0.702201281013031
+        },
+        {
+          "prediction_index": 21,
+          "gt_index": 19,
+          "iou": 0.6547280375422472
+        },
+        {
+          "prediction_index": 27,
+          "gt_index": 24,
+          "iou": 0.6499102741748631
+        },
+        {
+          "prediction_index": 5,
+          "gt_index": 3,
+          "iou": 0.604854905110955
+        },
+        {
+          "prediction_index": 28,
+          "gt_index": 26,
+          "iou": 0.5713937819628216
+        },
+        {
+          "prediction_index": 29,
+          "gt_index": 28,
+          "iou": 0.5371085242208036
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-043922-SIDDHIGUPTAB00B",
+      "predicted_segments": 95,
+      "ground_truth_executions": 37,
+      "matched_segments": 3,
+      "false_positive_predictions": 92,
+      "missed_ground_truth_executions": 34,
+      "precision": 0.031578947368421054,
+      "recall": 0.08108108108108109,
+      "f1": 0.045454545454545456,
+      "mean_iou": 0.561457288375022,
+      "mean_start_boundary_error_seconds": 7.805333333333333,
+      "mean_end_boundary_error_seconds": 16.014,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 8,
+          "gt_index": 5,
+          "iou": 0.5895059795880032
+        },
+        {
+          "prediction_index": 94,
+          "gt_index": 36,
+          "iou": 0.5741025961231597
+        },
+        {
+          "prediction_index": 11,
+          "gt_index": 7,
+          "iou": 0.5207632894139028
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-051820-CHAITANYA0BCF",
+      "predicted_segments": 26,
+      "ground_truth_executions": 24,
+      "matched_segments": 1,
+      "false_positive_predictions": 25,
+      "missed_ground_truth_executions": 23,
+      "precision": 0.038461538461538464,
+      "recall": 0.041666666666666664,
+      "f1": 0.04,
+      "mean_iou": 0.5194692567860549,
+      "mean_start_boundary_error_seconds": 12.422,
+      "mean_end_boundary_error_seconds": 15.283,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 15,
+          "gt_index": 14,
+          "iou": 0.5194692567860549
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-051850-LAPTOP-R36BQBTE",
+      "predicted_segments": 25,
+      "ground_truth_executions": 31,
+      "matched_segments": 3,
+      "false_positive_predictions": 22,
+      "missed_ground_truth_executions": 28,
+      "precision": 0.12,
+      "recall": 0.0967741935483871,
+      "f1": 0.10714285714285714,
+      "mean_iou": 0.6198553789377318,
+      "mean_start_boundary_error_seconds": 7.499,
+      "mean_end_boundary_error_seconds": 8.541,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 12,
+          "gt_index": 10,
+          "iou": 0.64207604022074
+        },
+        {
+          "prediction_index": 9,
+          "gt_index": 7,
+          "iou": 0.6100168246542739
+        },
+        {
+          "prediction_index": 16,
+          "gt_index": 24,
+          "iou": 0.6074732719381815
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-053005-MSI",
+      "predicted_segments": 18,
+      "ground_truth_executions": 27,
+      "matched_segments": 4,
+      "false_positive_predictions": 14,
+      "missed_ground_truth_executions": 23,
+      "precision": 0.2222222222222222,
+      "recall": 0.14814814814814814,
+      "f1": 0.17777777777777776,
+      "mean_iou": 0.579276969349509,
+      "mean_start_boundary_error_seconds": 8.65675,
+      "mean_end_boundary_error_seconds": 11.0945,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 2,
+          "gt_index": 0,
+          "iou": 0.6252035240325639
+        },
+        {
+          "prediction_index": 8,
+          "gt_index": 14,
+          "iou": 0.6048724232377108
+        },
+        {
+          "prediction_index": 3,
+          "gt_index": 2,
+          "iou": 0.563054131054131
+        },
+        {
+          "prediction_index": 15,
+          "gt_index": 24,
+          "iou": 0.5239777990736304
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-053720-SIDDHIGUPTAB00B",
+      "predicted_segments": 28,
+      "ground_truth_executions": 31,
+      "matched_segments": 2,
+      "false_positive_predictions": 26,
+      "missed_ground_truth_executions": 29,
+      "precision": 0.07142857142857142,
+      "recall": 0.06451612903225806,
+      "f1": 0.06779661016949153,
+      "mean_iou": 0.680539890032186,
+      "mean_start_boundary_error_seconds": 1.8704999999999998,
+      "mean_end_boundary_error_seconds": 10.140500000000001,
+      "boundaries_within_5_seconds": 1,
+      "matches": [
+        {
+          "prediction_index": 3,
+          "gt_index": 2,
+          "iou": 0.8572115192053511
+        },
+        {
+          "prediction_index": 2,
+          "gt_index": 1,
+          "iou": 0.5038682608590207
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-054901-LAPTOP-R36BQBTE",
+      "predicted_segments": 23,
+      "ground_truth_executions": 26,
+      "matched_segments": 6,
+      "false_positive_predictions": 17,
+      "missed_ground_truth_executions": 20,
+      "precision": 0.2608695652173913,
+      "recall": 0.23076923076923078,
+      "f1": 0.24489795918367346,
+      "mean_iou": 0.5878876649099937,
+      "mean_start_boundary_error_seconds": 13.425166666666668,
+      "mean_end_boundary_error_seconds": 8.93,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 4,
+          "gt_index": 5,
+          "iou": 0.6701877096566983
+        },
+        {
+          "prediction_index": 11,
+          "gt_index": 14,
+          "iou": 0.6330170523206373
+        },
+        {
+          "prediction_index": 5,
+          "gt_index": 6,
+          "iou": 0.5956446285618318
+        },
+        {
+          "prediction_index": 7,
+          "gt_index": 8,
+          "iou": 0.5955494827249659
+        },
+        {
+          "prediction_index": 10,
+          "gt_index": 12,
+          "iou": 0.5169413141551994
+        },
+        {
+          "prediction_index": 3,
+          "gt_index": 3,
+          "iou": 0.5159858020406293
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-054930-CHAITANYA0BCF",
+      "predicted_segments": 21,
+      "ground_truth_executions": 26,
+      "matched_segments": 2,
+      "false_positive_predictions": 19,
+      "missed_ground_truth_executions": 24,
+      "precision": 0.09523809523809523,
+      "recall": 0.07692307692307693,
+      "f1": 0.0851063829787234,
+      "mean_iou": 0.6572566319228801,
+      "mean_start_boundary_error_seconds": 6.0175,
+      "mean_end_boundary_error_seconds": 5.319999999999999,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 15,
+          "gt_index": 22,
+          "iou": 0.7297047970479705
+        },
+        {
+          "prediction_index": 4,
+          "gt_index": 7,
+          "iou": 0.5848084667977896
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-055037-Marcos",
+      "predicted_segments": 29,
+      "ground_truth_executions": 28,
+      "matched_segments": 3,
+      "false_positive_predictions": 26,
+      "missed_ground_truth_executions": 25,
+      "precision": 0.10344827586206896,
+      "recall": 0.10714285714285714,
+      "f1": 0.10526315789473684,
+      "mean_iou": 0.6635622373739989,
+      "mean_start_boundary_error_seconds": 4.186,
+      "mean_end_boundary_error_seconds": 9.427,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 11,
+          "gt_index": 16,
+          "iou": 0.7498108067201453
+        },
+        {
+          "prediction_index": 2,
+          "gt_index": 1,
+          "iou": 0.6743914638212738
+        },
+        {
+          "prediction_index": 12,
+          "gt_index": 18,
+          "iou": 0.5664844415805774
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-055918-MSI",
+      "predicted_segments": 24,
+      "ground_truth_executions": 30,
+      "matched_segments": 4,
+      "false_positive_predictions": 20,
+      "missed_ground_truth_executions": 26,
+      "precision": 0.16666666666666666,
+      "recall": 0.13333333333333333,
+      "f1": 0.14814814814814814,
+      "mean_iou": 0.5809289273624425,
+      "mean_start_boundary_error_seconds": 6.68375,
+      "mean_end_boundary_error_seconds": 13.09,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 13,
+          "gt_index": 21,
+          "iou": 0.5988658973338639
+        },
+        {
+          "prediction_index": 19,
+          "gt_index": 24,
+          "iou": 0.5966405996945999
+        },
+        {
+          "prediction_index": 9,
+          "gt_index": 17,
+          "iou": 0.5916091343600637
+        },
+        {
+          "prediction_index": 20,
+          "gt_index": 26,
+          "iou": 0.5366000780612425
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-062250-Marcos",
+      "predicted_segments": 23,
+      "ground_truth_executions": 30,
+      "matched_segments": 4,
+      "false_positive_predictions": 19,
+      "missed_ground_truth_executions": 26,
+      "precision": 0.17391304347826086,
+      "recall": 0.13333333333333333,
+      "f1": 0.15094339622641512,
+      "mean_iou": 0.5865553016717742,
+      "mean_start_boundary_error_seconds": 13.37275,
+      "mean_end_boundary_error_seconds": 9.877500000000001,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 8,
+          "gt_index": 18,
+          "iou": 0.7046989579313007
+        },
+        {
+          "prediction_index": 22,
+          "gt_index": 29,
+          "iou": 0.6337818494131119
+        },
+        {
+          "prediction_index": 10,
+          "gt_index": 22,
+          "iou": 0.5065170166545981
+        },
+        {
+          "prediction_index": 1,
+          "gt_index": 1,
+          "iou": 0.5012233826880863
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-062732-MSI",
+      "predicted_segments": 23,
+      "ground_truth_executions": 27,
+      "matched_segments": 1,
+      "false_positive_predictions": 22,
+      "missed_ground_truth_executions": 26,
+      "precision": 0.043478260869565216,
+      "recall": 0.037037037037037035,
+      "f1": 0.039999999999999994,
+      "mean_iou": 0.5294799004994019,
+      "mean_start_boundary_error_seconds": 11.955,
+      "mean_end_boundary_error_seconds": 12.824,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 3,
+          "gt_index": 6,
+          "iou": 0.5294799004994019
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-063106-LAPTOP-R36BQBTE",
+      "predicted_segments": 24,
+      "ground_truth_executions": 23,
+      "matched_segments": 4,
+      "false_positive_predictions": 20,
+      "missed_ground_truth_executions": 19,
+      "precision": 0.16666666666666666,
+      "recall": 0.17391304347826086,
+      "f1": 0.1702127659574468,
+      "mean_iou": 0.6499876320056152,
+      "mean_start_boundary_error_seconds": 3.499,
+      "mean_end_boundary_error_seconds": 10.39875,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 2,
+          "gt_index": 0,
+          "iou": 0.732410192008989
+        },
+        {
+          "prediction_index": 6,
+          "gt_index": 6,
+          "iou": 0.6927260162845897
+        },
+        {
+          "prediction_index": 5,
+          "gt_index": 4,
+          "iou": 0.6373414317800765
+        },
+        {
+          "prediction_index": 16,
+          "gt_index": 12,
+          "iou": 0.5374728879488053
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-065151-CHAITANYA0BCF",
+      "predicted_segments": 22,
+      "ground_truth_executions": 31,
+      "matched_segments": 2,
+      "false_positive_predictions": 20,
+      "missed_ground_truth_executions": 29,
+      "precision": 0.09090909090909091,
+      "recall": 0.06451612903225806,
+      "f1": 0.07547169811320754,
+      "mean_iou": 0.6356139301703675,
+      "mean_start_boundary_error_seconds": 14.1815,
+      "mean_end_boundary_error_seconds": 11.038,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 9,
+          "gt_index": 4,
+          "iou": 0.7588452430700655
+        },
+        {
+          "prediction_index": 8,
+          "gt_index": 3,
+          "iou": 0.5123826172706695
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-070320-JAYESH",
+      "predicted_segments": 24,
+      "ground_truth_executions": 38,
+      "matched_segments": 9,
+      "false_positive_predictions": 15,
+      "missed_ground_truth_executions": 29,
+      "precision": 0.375,
+      "recall": 0.23684210526315788,
+      "f1": 0.2903225806451613,
+      "mean_iou": 0.5832327726472195,
+      "mean_start_boundary_error_seconds": 9.97022222222222,
+      "mean_end_boundary_error_seconds": 13.764111111111111,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 2,
+          "gt_index": 4,
+          "iou": 0.7299434376082189
+        },
+        {
+          "prediction_index": 22,
+          "gt_index": 33,
+          "iou": 0.633412930043336
+        },
+        {
+          "prediction_index": 9,
+          "gt_index": 12,
+          "iou": 0.6136519758487292
+        },
+        {
+          "prediction_index": 18,
+          "gt_index": 27,
+          "iou": 0.5871994581781239
+        },
+        {
+          "prediction_index": 21,
+          "gt_index": 32,
+          "iou": 0.5778207551316425
+        },
+        {
+          "prediction_index": 10,
+          "gt_index": 13,
+          "iou": 0.5613927291346646
+        },
+        {
+          "prediction_index": 11,
+          "gt_index": 15,
+          "iou": 0.5194225216554379
+        },
+        {
+          "prediction_index": 17,
+          "gt_index": 25,
+          "iou": 0.5175148824885586
+        },
+        {
+          "prediction_index": 6,
+          "gt_index": 9,
+          "iou": 0.5087362637362637
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-071849-Marcos",
+      "predicted_segments": 25,
+      "ground_truth_executions": 26,
+      "matched_segments": 3,
+      "false_positive_predictions": 22,
+      "missed_ground_truth_executions": 23,
+      "precision": 0.12,
+      "recall": 0.11538461538461539,
+      "f1": 0.11764705882352941,
+      "mean_iou": 0.5691162190317002,
+      "mean_start_boundary_error_seconds": 7.591999999999999,
+      "mean_end_boundary_error_seconds": 13.216,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 19,
+          "gt_index": 13,
+          "iou": 0.6088109320823986
+        },
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.5650186153282278
+        },
+        {
+          "prediction_index": 18,
+          "gt_index": 11,
+          "iou": 0.5335191096844741
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-072319-MSI",
+      "predicted_segments": 24,
+      "ground_truth_executions": 28,
+      "matched_segments": 2,
+      "false_positive_predictions": 22,
+      "missed_ground_truth_executions": 26,
+      "precision": 0.08333333333333333,
+      "recall": 0.07142857142857142,
+      "f1": 0.07692307692307691,
+      "mean_iou": 0.5108721624195255,
+      "mean_start_boundary_error_seconds": 11.008,
+      "mean_end_boundary_error_seconds": 12.3535,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 19,
+          "gt_index": 16,
+          "iou": 0.5149810584318677
+        },
+        {
+          "prediction_index": 18,
+          "gt_index": 14,
+          "iou": 0.5067632664071833
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-072435-CHAITANYA0BCF",
+      "predicted_segments": 23,
+      "ground_truth_executions": 27,
+      "matched_segments": 2,
+      "false_positive_predictions": 21,
+      "missed_ground_truth_executions": 25,
+      "precision": 0.08695652173913043,
+      "recall": 0.07407407407407407,
+      "f1": 0.07999999999999999,
+      "mean_iou": 0.6679787965294093,
+      "mean_start_boundary_error_seconds": 2.4405,
+      "mean_end_boundary_error_seconds": 12.0305,
+      "boundaries_within_5_seconds": 1,
+      "matches": [
+        {
+          "prediction_index": 7,
+          "gt_index": 11,
+          "iou": 0.8076169825837588
+        },
+        {
+          "prediction_index": 12,
+          "gt_index": 19,
+          "iou": 0.5283406104750599
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-074424-SIDDHIGUPTAB00B",
+      "predicted_segments": 22,
+      "ground_truth_executions": 28,
+      "matched_segments": 1,
+      "false_positive_predictions": 21,
+      "missed_ground_truth_executions": 27,
+      "precision": 0.045454545454545456,
+      "recall": 0.03571428571428571,
+      "f1": 0.04,
+      "mean_iou": 0.6194104988845676,
+      "mean_start_boundary_error_seconds": 0.501,
+      "mean_end_boundary_error_seconds": 18.777,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 2,
+          "gt_index": 3,
+          "iou": 0.6194104988845676
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-075548-CHAITANYA0BCF",
+      "predicted_segments": 17,
+      "ground_truth_executions": 20,
+      "matched_segments": 3,
+      "false_positive_predictions": 14,
+      "missed_ground_truth_executions": 17,
+      "precision": 0.17647058823529413,
+      "recall": 0.15,
+      "f1": 0.16216216216216214,
+      "mean_iou": 0.5984412094785366,
+      "mean_start_boundary_error_seconds": 12.427999999999999,
+      "mean_end_boundary_error_seconds": 7.391666666666666,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 16,
+          "gt_index": 19,
+          "iou": 0.6966425350746402
+        },
+        {
+          "prediction_index": 13,
+          "gt_index": 14,
+          "iou": 0.579967007322765
+        },
+        {
+          "prediction_index": 12,
+          "gt_index": 12,
+          "iou": 0.5187140860382047
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-075604-LAPTOP-0IM1OHQH",
+      "predicted_segments": 19,
+      "ground_truth_executions": 28,
+      "matched_segments": 5,
+      "false_positive_predictions": 14,
+      "missed_ground_truth_executions": 23,
+      "precision": 0.2631578947368421,
+      "recall": 0.17857142857142858,
+      "f1": 0.2127659574468085,
+      "mean_iou": 0.5888333626875195,
+      "mean_start_boundary_error_seconds": 9.4662,
+      "mean_end_boundary_error_seconds": 11.22,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 7,
+          "gt_index": 12,
+          "iou": 0.6603516477701192
+        },
+        {
+          "prediction_index": 13,
+          "gt_index": 17,
+          "iou": 0.6437504021965293
+        },
+        {
+          "prediction_index": 15,
+          "gt_index": 19,
+          "iou": 0.5617158671586716
+        },
+        {
+          "prediction_index": 1,
+          "gt_index": 4,
+          "iou": 0.5443172974375234
+        },
+        {
+          "prediction_index": 6,
+          "gt_index": 10,
+          "iou": 0.5340315988747545
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-081120-SIDDHIGUPTAB00B",
+      "predicted_segments": 29,
+      "ground_truth_executions": 26,
+      "matched_segments": 3,
+      "false_positive_predictions": 26,
+      "missed_ground_truth_executions": 23,
+      "precision": 0.10344827586206896,
+      "recall": 0.11538461538461539,
+      "f1": 0.10909090909090909,
+      "mean_iou": 0.6057018765817065,
+      "mean_start_boundary_error_seconds": 1.646,
+      "mean_end_boundary_error_seconds": 16.915000000000003,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.6557722461779695
+        },
+        {
+          "prediction_index": 19,
+          "gt_index": 13,
+          "iou": 0.60434832360682
+        },
+        {
+          "prediction_index": 12,
+          "gt_index": 8,
+          "iou": 0.5569850599603298
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-081732-CHAITANYA0BCF",
+      "predicted_segments": 20,
+      "ground_truth_executions": 22,
+      "matched_segments": 1,
+      "false_positive_predictions": 19,
+      "missed_ground_truth_executions": 21,
+      "precision": 0.05,
+      "recall": 0.045454545454545456,
+      "f1": 0.04761904761904762,
+      "mean_iou": 0.5040648555097579,
+      "mean_start_boundary_error_seconds": 0.413,
+      "mean_end_boundary_error_seconds": 21.365,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.5040648555097579
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-083656-LAPTOP-0IM1OHQH",
+      "predicted_segments": 15,
+      "ground_truth_executions": 31,
+      "matched_segments": 1,
+      "false_positive_predictions": 14,
+      "missed_ground_truth_executions": 30,
+      "precision": 0.06666666666666667,
+      "recall": 0.03225806451612903,
+      "f1": 0.043478260869565216,
+      "mean_iou": 0.6991734498255759,
+      "mean_start_boundary_error_seconds": 2.069,
+      "mean_end_boundary_error_seconds": 7.503,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 11,
+          "gt_index": 18,
+          "iou": 0.6991734498255759
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-090300-Marcos",
+      "predicted_segments": 33,
+      "ground_truth_executions": 22,
+      "matched_segments": 2,
+      "false_positive_predictions": 31,
+      "missed_ground_truth_executions": 20,
+      "precision": 0.06060606060606061,
+      "recall": 0.09090909090909091,
+      "f1": 0.07272727272727272,
+      "mean_iou": 0.5494583126903383,
+      "mean_start_boundary_error_seconds": 3.7550000000000003,
+      "mean_end_boundary_error_seconds": 16.679000000000002,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 22,
+          "gt_index": 19,
+          "iou": 0.5897656744775174
+        },
+        {
+          "prediction_index": 12,
+          "gt_index": 12,
+          "iou": 0.5091509509031591
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-092027-SIDDHIGUPTAB00B",
+      "predicted_segments": 32,
+      "ground_truth_executions": 30,
+      "matched_segments": 1,
+      "false_positive_predictions": 31,
+      "missed_ground_truth_executions": 29,
+      "precision": 0.03125,
+      "recall": 0.03333333333333333,
+      "f1": 0.03225806451612904,
+      "mean_iou": 0.7150689483302874,
+      "mean_start_boundary_error_seconds": 7.058,
+      "mean_end_boundary_error_seconds": 1.517,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 19,
+          "gt_index": 18,
+          "iou": 0.7150689483302874
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-093900-Marcos",
+      "predicted_segments": 21,
+      "ground_truth_executions": 24,
+      "matched_segments": 5,
+      "false_positive_predictions": 16,
+      "missed_ground_truth_executions": 19,
+      "precision": 0.23809523809523808,
+      "recall": 0.20833333333333334,
+      "f1": 0.22222222222222224,
+      "mean_iou": 0.6391283848599384,
+      "mean_start_boundary_error_seconds": 3.8274,
+      "mean_end_boundary_error_seconds": 12.6998,
+      "boundaries_within_5_seconds": 1,
+      "matches": [
+        {
+          "prediction_index": 19,
+          "gt_index": 23,
+          "iou": 0.8889016175594556
+        },
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.6417784159380528
+        },
+        {
+          "prediction_index": 3,
+          "gt_index": 3,
+          "iou": 0.5994481556781877
+        },
+        {
+          "prediction_index": 14,
+          "gt_index": 20,
+          "iou": 0.5620328514523565
+        },
+        {
+          "prediction_index": 18,
+          "gt_index": 22,
+          "iou": 0.5034808836716393
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-095337-LAPTOP-0IM1OHQH",
+      "predicted_segments": 39,
+      "ground_truth_executions": 25,
+      "matched_segments": 3,
+      "false_positive_predictions": 36,
+      "missed_ground_truth_executions": 22,
+      "precision": 0.07692307692307693,
+      "recall": 0.12,
+      "f1": 0.09375000000000001,
+      "mean_iou": 0.6093574344140283,
+      "mean_start_boundary_error_seconds": 2.2640000000000002,
+      "mean_end_boundary_error_seconds": 15.030666666666667,
+      "boundaries_within_5_seconds": 1,
+      "matches": [
+        {
+          "prediction_index": 2,
+          "gt_index": 0,
+          "iou": 0.794200657258844
+        },
+        {
+          "prediction_index": 3,
+          "gt_index": 1,
+          "iou": 0.5209133589415279
+        },
+        {
+          "prediction_index": 19,
+          "gt_index": 10,
+          "iou": 0.512958287041713
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-100550-Marcos",
+      "predicted_segments": 33,
+      "ground_truth_executions": 30,
+      "matched_segments": 6,
+      "false_positive_predictions": 27,
+      "missed_ground_truth_executions": 24,
+      "precision": 0.18181818181818182,
+      "recall": 0.2,
+      "f1": 0.1904761904761905,
+      "mean_iou": 0.5628462997964866,
+      "mean_start_boundary_error_seconds": 3.6381666666666668,
+      "mean_end_boundary_error_seconds": 17.19533333333333,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.7181514729234858
+        },
+        {
+          "prediction_index": 20,
+          "gt_index": 20,
+          "iou": 0.5627768995062162
+        },
+        {
+          "prediction_index": 31,
+          "gt_index": 28,
+          "iou": 0.5463399786942627
+        },
+        {
+          "prediction_index": 15,
+          "gt_index": 9,
+          "iou": 0.5311709414015097
+        },
+        {
+          "prediction_index": 14,
+          "gt_index": 8,
+          "iou": 0.5099406554317009
+        },
+        {
+          "prediction_index": 7,
+          "gt_index": 3,
+          "iou": 0.5086978508217447
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-103521-LAPTOP-0IM1OHQH",
+      "predicted_segments": 20,
+      "ground_truth_executions": 24,
+      "matched_segments": 1,
+      "false_positive_predictions": 19,
+      "missed_ground_truth_executions": 23,
+      "precision": 0.05,
+      "recall": 0.041666666666666664,
+      "f1": 0.04545454545454545,
+      "mean_iou": 0.795697796432319,
+      "mean_start_boundary_error_seconds": 8.339,
+      "mean_end_boundary_error_seconds": 1.396,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 18,
+          "gt_index": 23,
+          "iou": 0.795697796432319
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-103853-Marcos",
+      "predicted_segments": 18,
+      "ground_truth_executions": 28,
+      "matched_segments": 1,
+      "false_positive_predictions": 17,
+      "missed_ground_truth_executions": 27,
+      "precision": 0.05555555555555555,
+      "recall": 0.03571428571428571,
+      "f1": 0.043478260869565216,
+      "mean_iou": 0.7950730211527467,
+      "mean_start_boundary_error_seconds": 0.387,
+      "mean_end_boundary_error_seconds": 11.442,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.7950730211527467
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-110548-LAPTOP-0IM1OHQH",
+      "predicted_segments": 25,
+      "ground_truth_executions": 25,
+      "matched_segments": 3,
+      "false_positive_predictions": 22,
+      "missed_ground_truth_executions": 22,
+      "precision": 0.12,
+      "recall": 0.12,
+      "f1": 0.12,
+      "mean_iou": 0.6005002912437141,
+      "mean_start_boundary_error_seconds": 4.487666666666667,
+      "mean_end_boundary_error_seconds": 13.756666666666668,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 12,
+          "gt_index": 13,
+          "iou": 0.6612582834077582
+        },
+        {
+          "prediction_index": 6,
+          "gt_index": 5,
+          "iou": 0.5798594951576801
+        },
+        {
+          "prediction_index": 5,
+          "gt_index": 4,
+          "iou": 0.5603830951657038
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-110917-Marcos",
+      "predicted_segments": 26,
+      "ground_truth_executions": 27,
+      "matched_segments": 5,
+      "false_positive_predictions": 21,
+      "missed_ground_truth_executions": 22,
+      "precision": 0.19230769230769232,
+      "recall": 0.18518518518518517,
+      "f1": 0.18867924528301885,
+      "mean_iou": 0.5840027903329992,
+      "mean_start_boundary_error_seconds": 3.3289999999999997,
+      "mean_end_boundary_error_seconds": 16.6954,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 25,
+          "gt_index": 26,
+          "iou": 0.68356135986733
+        },
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.6103806228373703
+        },
+        {
+          "prediction_index": 9,
+          "gt_index": 13,
+          "iou": 0.6083086053412463
+        },
+        {
+          "prediction_index": 22,
+          "gt_index": 23,
+          "iou": 0.5147179652055871
+        },
+        {
+          "prediction_index": 13,
+          "gt_index": 18,
+          "iou": 0.5030453984134625
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-115141-SIDDHIGUPTAB00B",
+      "predicted_segments": 33,
+      "ground_truth_executions": 41,
+      "matched_segments": 2,
+      "false_positive_predictions": 31,
+      "missed_ground_truth_executions": 39,
+      "precision": 0.06060606060606061,
+      "recall": 0.04878048780487805,
+      "f1": 0.05405405405405405,
+      "mean_iou": 0.5174355195643641,
+      "mean_start_boundary_error_seconds": 6.325,
+      "mean_end_boundary_error_seconds": 20.604,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 21,
+          "gt_index": 25,
+          "iou": 0.5310417276594279
+        },
+        {
+          "prediction_index": 28,
+          "gt_index": 35,
+          "iou": 0.5038293114693003
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-120612-Marcos",
+      "predicted_segments": 27,
+      "ground_truth_executions": 27,
+      "matched_segments": 5,
+      "false_positive_predictions": 22,
+      "missed_ground_truth_executions": 22,
+      "precision": 0.18518518518518517,
+      "recall": 0.18518518518518517,
+      "f1": 0.18518518518518517,
+      "mean_iou": 0.6132573270156756,
+      "mean_start_boundary_error_seconds": 4.384600000000001,
+      "mean_end_boundary_error_seconds": 14.470999999999998,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 2,
+          "gt_index": 1,
+          "iou": 0.7972791671138778
+        },
+        {
+          "prediction_index": 17,
+          "gt_index": 21,
+          "iou": 0.6617672983693257
+        },
+        {
+          "prediction_index": 14,
+          "gt_index": 18,
+          "iou": 0.5788328925578982
+        },
+        {
+          "prediction_index": 19,
+          "gt_index": 22,
+          "iou": 0.5169936724794817
+        },
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.5114136045577945
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-120828-LAPTOP-0IM1OHQH",
+      "predicted_segments": 25,
+      "ground_truth_executions": 25,
+      "matched_segments": 2,
+      "false_positive_predictions": 23,
+      "missed_ground_truth_executions": 23,
+      "precision": 0.08,
+      "recall": 0.08,
+      "f1": 0.08,
+      "mean_iou": 0.6467739376528968,
+      "mean_start_boundary_error_seconds": 6.354,
+      "mean_end_boundary_error_seconds": 9.5695,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.7311589098986834
+        },
+        {
+          "prediction_index": 9,
+          "gt_index": 10,
+          "iou": 0.5623889654071103
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-123729-Marcos",
+      "predicted_segments": 25,
+      "ground_truth_executions": 29,
+      "matched_segments": 3,
+      "false_positive_predictions": 22,
+      "missed_ground_truth_executions": 26,
+      "precision": 0.12,
+      "recall": 0.10344827586206896,
+      "f1": 0.11111111111111112,
+      "mean_iou": 0.7261282347913834,
+      "mean_start_boundary_error_seconds": 6.2669999999999995,
+      "mean_end_boundary_error_seconds": 8.081999999999999,
+      "boundaries_within_5_seconds": 1,
+      "matches": [
+        {
+          "prediction_index": 9,
+          "gt_index": 12,
+          "iou": 0.9693525179856115
+        },
+        {
+          "prediction_index": 6,
+          "gt_index": 6,
+          "iou": 0.7010814774081202
+        },
+        {
+          "prediction_index": 16,
+          "gt_index": 22,
+          "iou": 0.5079507089804186
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-124033-SIDDHIGUPTAB00B",
+      "predicted_segments": 37,
+      "ground_truth_executions": 28,
+      "matched_segments": 4,
+      "false_positive_predictions": 33,
+      "missed_ground_truth_executions": 24,
+      "precision": 0.10810810810810811,
+      "recall": 0.14285714285714285,
+      "f1": 0.12307692307692308,
+      "mean_iou": 0.6831361728872218,
+      "mean_start_boundary_error_seconds": 3.9417500000000003,
+      "mean_end_boundary_error_seconds": 10.57075,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 12,
+          "gt_index": 13,
+          "iou": 0.7691112262265966
+        },
+        {
+          "prediction_index": 35,
+          "gt_index": 27,
+          "iou": 0.7341467812706618
+        },
+        {
+          "prediction_index": 18,
+          "gt_index": 20,
+          "iou": 0.6892065237309877
+        },
+        {
+          "prediction_index": 11,
+          "gt_index": 11,
+          "iou": 0.5400801603206413
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-124550-LAPTOP-0IM1OHQH",
+      "predicted_segments": 29,
+      "ground_truth_executions": 29,
+      "matched_segments": 2,
+      "false_positive_predictions": 27,
+      "missed_ground_truth_executions": 27,
+      "precision": 0.06896551724137931,
+      "recall": 0.06896551724137931,
+      "f1": 0.06896551724137931,
+      "mean_iou": 0.565350234107175,
+      "mean_start_boundary_error_seconds": 6.9725,
+      "mean_end_boundary_error_seconds": 11.836,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 18,
+          "gt_index": 18,
+          "iou": 0.5986139032906571
+        },
+        {
+          "prediction_index": 8,
+          "gt_index": 8,
+          "iou": 0.5320865649236928
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-124636-MSI",
+      "predicted_segments": 26,
+      "ground_truth_executions": 31,
+      "matched_segments": 5,
+      "false_positive_predictions": 21,
+      "missed_ground_truth_executions": 26,
+      "precision": 0.19230769230769232,
+      "recall": 0.16129032258064516,
+      "f1": 0.17543859649122806,
+      "mean_iou": 0.5681874554935542,
+      "mean_start_boundary_error_seconds": 11.5338,
+      "mean_end_boundary_error_seconds": 10.2202,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 17,
+          "gt_index": 20,
+          "iou": 0.6525527645659929
+        },
+        {
+          "prediction_index": 9,
+          "gt_index": 15,
+          "iou": 0.6152918407988107
+        },
+        {
+          "prediction_index": 3,
+          "gt_index": 9,
+          "iou": 0.5387992094999913
+        },
+        {
+          "prediction_index": 15,
+          "gt_index": 17,
+          "iou": 0.5276016061845611
+        },
+        {
+          "prediction_index": 21,
+          "gt_index": 26,
+          "iou": 0.5066918564184151
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-131015-SIDDHIGUPTAB00B",
+      "predicted_segments": 29,
+      "ground_truth_executions": 29,
+      "matched_segments": 4,
+      "false_positive_predictions": 25,
+      "missed_ground_truth_executions": 25,
+      "precision": 0.13793103448275862,
+      "recall": 0.13793103448275862,
+      "f1": 0.13793103448275862,
+      "mean_iou": 0.6538127244324502,
+      "mean_start_boundary_error_seconds": 3.795,
+      "mean_end_boundary_error_seconds": 10.44875,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.7601655313509869
+        },
+        {
+          "prediction_index": 15,
+          "gt_index": 17,
+          "iou": 0.6261857829247259
+        },
+        {
+          "prediction_index": 21,
+          "gt_index": 23,
+          "iou": 0.6167898982139428
+        },
+        {
+          "prediction_index": 6,
+          "gt_index": 3,
+          "iou": 0.6121096852401454
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-131247-MSI",
+      "predicted_segments": 23,
+      "ground_truth_executions": 31,
+      "matched_segments": 3,
+      "false_positive_predictions": 20,
+      "missed_ground_truth_executions": 28,
+      "precision": 0.13043478260869565,
+      "recall": 0.0967741935483871,
+      "f1": 0.1111111111111111,
+      "mean_iou": 0.734303424550414,
+      "mean_start_boundary_error_seconds": 1.8226666666666667,
+      "mean_end_boundary_error_seconds": 9.712,
+      "boundaries_within_5_seconds": 1,
+      "matches": [
+        {
+          "prediction_index": 21,
+          "gt_index": 30,
+          "iou": 0.9521872123065958
+        },
+        {
+          "prediction_index": 11,
+          "gt_index": 24,
+          "iou": 0.6618165784832452
+        },
+        {
+          "prediction_index": 6,
+          "gt_index": 6,
+          "iou": 0.5889064828614009
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-134215-SIDDHIGUPTAB00B",
+      "predicted_segments": 28,
+      "ground_truth_executions": 31,
+      "matched_segments": 3,
+      "false_positive_predictions": 25,
+      "missed_ground_truth_executions": 28,
+      "precision": 0.10714285714285714,
+      "recall": 0.0967741935483871,
+      "f1": 0.10169491525423728,
+      "mean_iou": 0.6729270191930835,
+      "mean_start_boundary_error_seconds": 14.201,
+      "mean_end_boundary_error_seconds": 6.841333333333334,
+      "boundaries_within_5_seconds": 1,
+      "matches": [
+        {
+          "prediction_index": 10,
+          "gt_index": 12,
+          "iou": 0.8447706422018348
+        },
+        {
+          "prediction_index": 27,
+          "gt_index": 30,
+          "iou": 0.620844414893617
+        },
+        {
+          "prediction_index": 9,
+          "gt_index": 11,
+          "iou": 0.5531660004837985
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-141430-SIDDHIGUPTAB00B",
+      "predicted_segments": 31,
+      "ground_truth_executions": 30,
+      "matched_segments": 4,
+      "false_positive_predictions": 27,
+      "missed_ground_truth_executions": 26,
+      "precision": 0.12903225806451613,
+      "recall": 0.13333333333333333,
+      "f1": 0.13114754098360656,
+      "mean_iou": 0.6857621959920391,
+      "mean_start_boundary_error_seconds": 4.9895,
+      "mean_end_boundary_error_seconds": 9.82125,
+      "boundaries_within_5_seconds": 1,
+      "matches": [
+        {
+          "prediction_index": 2,
+          "gt_index": 1,
+          "iou": 0.7982648930017351
+        },
+        {
+          "prediction_index": 14,
+          "gt_index": 15,
+          "iou": 0.7629045028478022
+        },
+        {
+          "prediction_index": 30,
+          "gt_index": 29,
+          "iou": 0.6093335559141579
+        },
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.5725458322044613
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-145907-MSI",
+      "predicted_segments": 24,
+      "ground_truth_executions": 28,
+      "matched_segments": 1,
+      "false_positive_predictions": 23,
+      "missed_ground_truth_executions": 27,
+      "precision": 0.041666666666666664,
+      "recall": 0.03571428571428571,
+      "f1": 0.03846153846153846,
+      "mean_iou": 0.6288146046626373,
+      "mean_start_boundary_error_seconds": 0.179,
+      "mean_end_boundary_error_seconds": 14.867,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.6288146046626373
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-152030-CHAITANYA0BCF",
+      "predicted_segments": 14,
+      "ground_truth_executions": 27,
+      "matched_segments": 1,
+      "false_positive_predictions": 13,
+      "missed_ground_truth_executions": 26,
+      "precision": 0.07142857142857142,
+      "recall": 0.037037037037037035,
+      "f1": 0.04878048780487805,
+      "mean_iou": 0.5129523503472408,
+      "mean_start_boundary_error_seconds": 11.554,
+      "mean_end_boundary_error_seconds": 15.727,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 8,
+          "gt_index": 5,
+          "iou": 0.5129523503472408
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-155031-CHAITANYA0BCF",
+      "predicted_segments": 34,
+      "ground_truth_executions": 25,
+      "matched_segments": 6,
+      "false_positive_predictions": 28,
+      "missed_ground_truth_executions": 19,
+      "precision": 0.17647058823529413,
+      "recall": 0.24,
+      "f1": 0.20338983050847456,
+      "mean_iou": 0.5924933771348134,
+      "mean_start_boundary_error_seconds": 6.645499999999999,
+      "mean_end_boundary_error_seconds": 13.1815,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 28,
+          "gt_index": 20,
+          "iou": 0.7752008444262006
+        },
+        {
+          "prediction_index": 1,
+          "gt_index": 0,
+          "iou": 0.6538695368264619
+        },
+        {
+          "prediction_index": 11,
+          "gt_index": 10,
+          "iou": 0.5479040970401491
+        },
+        {
+          "prediction_index": 17,
+          "gt_index": 12,
+          "iou": 0.5404893147159575
+        },
+        {
+          "prediction_index": 31,
+          "gt_index": 23,
+          "iou": 0.525411791071057
+        },
+        {
+          "prediction_index": 27,
+          "gt_index": 18,
+          "iou": 0.5120846787290548
+        }
+      ]
+    },
+    {
+      "session_id": "ses_20260701-172430-yuvraj",
+      "predicted_segments": 21,
+      "ground_truth_executions": 25,
+      "matched_segments": 5,
+      "false_positive_predictions": 16,
+      "missed_ground_truth_executions": 20,
+      "precision": 0.23809523809523808,
+      "recall": 0.2,
+      "f1": 0.21739130434782608,
+      "mean_iou": 0.6130630608624047,
+      "mean_start_boundary_error_seconds": 7.4624,
+      "mean_end_boundary_error_seconds": 9.8338,
+      "boundaries_within_5_seconds": 0,
+      "matches": [
+        {
+          "prediction_index": 2,
+          "gt_index": 1,
+          "iou": 0.7349878761945514
+        },
+        {
+          "prediction_index": 9,
+          "gt_index": 11,
+          "iou": 0.6139438534406491
+        },
+        {
+          "prediction_index": 6,
+          "gt_index": 5,
+          "iou": 0.6034585756956453
+        },
+        {
+          "prediction_index": 8,
+          "gt_index": 9,
+          "iou": 0.5978964734996907
+        },
+        {
+          "prediction_index": 3,
+          "gt_index": 2,
+          "iou": 0.5150285254814871
+        }
+      ]
+    }
+  ]
+}

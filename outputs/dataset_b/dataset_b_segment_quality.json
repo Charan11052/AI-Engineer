@@ -1,0 +1,915 @@
+{
+  "total_segments": 173,
+  "interaction_activity": {
+    "with_interaction": 173,
+    "without_interaction": 0
+  },
+  "duration_distribution": {
+    ">=10s": 44,
+    "1-2s": 13,
+    "<1s": 82,
+    "5-10s": 20,
+    "2-5s": 14
+  },
+  "completion_position": {
+    "segments_with_position": 173,
+    "near_end_ge_80_percent": 36,
+    "average_position": 0.42597713125794057
+  },
+  "task_summary": {
+    "FINANCE_INVOICE": {
+      "segments": 29,
+      "with_interaction": 29,
+      "no_interaction": 0,
+      "total_duration": 428.741,
+      "total_interactions": 622
+    },
+    "HR_PAYROLL": {
+      "segments": 16,
+      "with_interaction": 16,
+      "no_interaction": 0,
+      "total_duration": 10.671000000000001,
+      "total_interactions": 93
+    },
+    "LOGISTICS_ORDER": {
+      "segments": 26,
+      "with_interaction": 26,
+      "no_interaction": 0,
+      "total_duration": 358.6840000000001,
+      "total_interactions": 558
+    },
+    "LOGISTICS_INVENTORY": {
+      "segments": 31,
+      "with_interaction": 31,
+      "no_interaction": 0,
+      "total_duration": 18.842999999999996,
+      "total_interactions": 183
+    },
+    "HR_ONBOARDING": {
+      "segments": 22,
+      "with_interaction": 22,
+      "no_interaction": 0,
+      "total_duration": 20.692999999999998,
+      "total_interactions": 128
+    },
+    "FINANCE_BUDGET": {
+      "segments": 5,
+      "with_interaction": 5,
+      "no_interaction": 0,
+      "total_duration": 95.666,
+      "total_interactions": 381
+    },
+    "FINANCE_PAYMENT": {
+      "segments": 21,
+      "with_interaction": 21,
+      "no_interaction": 0,
+      "total_duration": 247.571,
+      "total_interactions": 420
+    },
+    "HR_ATTENDANCE": {
+      "segments": 23,
+      "with_interaction": 23,
+      "no_interaction": 0,
+      "total_duration": 13.807,
+      "total_interactions": 131
+    }
+  },
+  "potentially_weak_segments": [
+    {
+      "segment_id": "ses_20260701-164424-CHAITANYA0BCF__chunk_20260701-1630-CHAITANYA0BCF__segment_0003",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.645,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-171614-CHAITANYA0BCF__chunk_20260701-1700-CHAITANYA0BCF__segment_0002",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.635,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-171614-CHAITANYA0BCF__chunk_20260701-1700-CHAITANYA0BCF__segment_0003",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.591,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-171614-CHAITANYA0BCF__chunk_20260701-1700-CHAITANYA0BCF__segment_0011",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.65,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-171614-CHAITANYA0BCF__chunk_20260701-1700-CHAITANYA0BCF__segment_0012",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.618,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-171614-CHAITANYA0BCF__chunk_20260701-1700-CHAITANYA0BCF__segment_0017",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.591,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-171614-CHAITANYA0BCF__chunk_20260701-1700-CHAITANYA0BCF__segment_0018",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.65,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-173246-SIDDHIGUPTAB00B__chunk_20260701-1730-SIDDHIGUPTAB00B__segment_0007",
+      "task": "HR_ONBOARDING",
+      "duration_seconds": 0.588,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-173642-NEELA9BAF__chunk_20260701-1730-NEELA9BAF__segment_0003",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.58,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-173642-NEELA9BAF__chunk_20260701-1730-NEELA9BAF__segment_0004",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.557,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-173642-NEELA9BAF__chunk_20260701-1730-NEELA9BAF__segment_0005",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.599,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-173642-NEELA9BAF__chunk_20260701-1730-NEELA9BAF__segment_0006",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.571,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-173642-NEELA9BAF__chunk_20260701-1730-NEELA9BAF__segment_0007",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.592,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-173642-NEELA9BAF__chunk_20260701-1730-NEELA9BAF__segment_0008",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.655,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-173642-NEELA9BAF__chunk_20260701-1730-NEELA9BAF__segment_0009",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.646,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-173642-NEELA9BAF__chunk_20260701-1730-NEELA9BAF__segment_0010",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.64,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-173642-NEELA9BAF__chunk_20260701-1730-NEELA9BAF__segment_0011",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.578,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-173642-NEELA9BAF__chunk_20260701-1730-NEELA9BAF__segment_0012",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.614,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-173642-NEELA9BAF__chunk_20260701-1730-NEELA9BAF__segment_0013",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.608,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-175258-LAPTOP-76QMG9DE__chunk_20260701-1730-LAPTOP-76QMG9DE__segment_0008",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.582,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-175747-SIDDHIGUPTAB00B__chunk_20260701-1730-SIDDHIGUPTAB00B__segment_0001",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.65,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-175747-SIDDHIGUPTAB00B__chunk_20260701-1730-SIDDHIGUPTAB00B__segment_0002",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.645,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-175747-SIDDHIGUPTAB00B__chunk_20260701-1730-SIDDHIGUPTAB00B__segment_0003",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.586,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-175258-LAPTOP-76QMG9DE__chunk_20260701-1800-LAPTOP-76QMG9DE__segment_0001",
+      "task": "HR_ONBOARDING",
+      "duration_seconds": 0.72,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-175258-LAPTOP-76QMG9DE__chunk_20260701-1800-LAPTOP-76QMG9DE__segment_0004",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.614,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-175747-SIDDHIGUPTAB00B__chunk_20260701-1800-SIDDHIGUPTAB00B__segment_0001",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.625,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-175747-SIDDHIGUPTAB00B__chunk_20260701-1800-SIDDHIGUPTAB00B__segment_0002",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.562,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-175747-SIDDHIGUPTAB00B__chunk_20260701-1800-SIDDHIGUPTAB00B__segment_0006",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.595,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-180923-NEELA9BAF__chunk_20260701-1800-NEELA9BAF__segment_0005",
+      "task": "HR_ONBOARDING",
+      "duration_seconds": 0.636,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-180923-NEELA9BAF__chunk_20260701-1800-NEELA9BAF__segment_0006",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.572,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-180923-NEELA9BAF__chunk_20260701-1800-NEELA9BAF__segment_0007",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.568,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-181413-LAPTOP-76QMG9DE__chunk_20260701-1800-LAPTOP-76QMG9DE__segment_0001",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.612,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-181413-LAPTOP-76QMG9DE__chunk_20260701-1800-LAPTOP-76QMG9DE__segment_0002",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.598,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-181413-LAPTOP-76QMG9DE__chunk_20260701-1800-LAPTOP-76QMG9DE__segment_0003",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.589,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-181413-LAPTOP-76QMG9DE__chunk_20260701-1800-LAPTOP-76QMG9DE__segment_0011",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.613,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-181413-LAPTOP-76QMG9DE__chunk_20260701-1800-LAPTOP-76QMG9DE__segment_0012",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.627,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-181913-SIDDHIGUPTAB00B__chunk_20260701-1800-SIDDHIGUPTAB00B__segment_0004",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.592,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-181913-SIDDHIGUPTAB00B__chunk_20260701-1800-SIDDHIGUPTAB00B__segment_0005",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.612,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-181913-SIDDHIGUPTAB00B__chunk_20260701-1800-SIDDHIGUPTAB00B__segment_0006",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.721,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-181913-SIDDHIGUPTAB00B__chunk_20260701-1800-SIDDHIGUPTAB00B__segment_0007",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.657,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-181913-SIDDHIGUPTAB00B__chunk_20260701-1800-SIDDHIGUPTAB00B__segment_0010",
+      "task": "HR_ONBOARDING",
+      "duration_seconds": 0.683,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-181913-SIDDHIGUPTAB00B__chunk_20260701-1800-SIDDHIGUPTAB00B__segment_0012",
+      "task": "HR_ONBOARDING",
+      "duration_seconds": 0.637,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-182634-NEELA9BAF__chunk_20260701-1830-NEELA9BAF__segment_0001",
+      "task": "FINANCE_INVOICE",
+      "duration_seconds": 0.586,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-182634-NEELA9BAF__chunk_20260701-1830-NEELA9BAF__segment_0003",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.562,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-182634-NEELA9BAF__chunk_20260701-1830-NEELA9BAF__segment_0004",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.602,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-182634-NEELA9BAF__chunk_20260701-1830-NEELA9BAF__segment_0005",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.552,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-183232-LAPTOP-76QMG9DE__chunk_20260701-1830-LAPTOP-76QMG9DE__segment_0001",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.631,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-183232-LAPTOP-76QMG9DE__chunk_20260701-1830-LAPTOP-76QMG9DE__segment_0002",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.759,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-183232-LAPTOP-76QMG9DE__chunk_20260701-1830-LAPTOP-76QMG9DE__segment_0003",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.637,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-183232-LAPTOP-76QMG9DE__chunk_20260701-1830-LAPTOP-76QMG9DE__segment_0006",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.58,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-183232-LAPTOP-76QMG9DE__chunk_20260701-1830-LAPTOP-76QMG9DE__segment_0007",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.586,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-184201-LAPTOP-76QMG9DE__chunk_20260701-1830-LAPTOP-76QMG9DE__segment_0003",
+      "task": "HR_ONBOARDING",
+      "duration_seconds": 1.469,
+      "event_count": 10,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-184201-LAPTOP-76QMG9DE__chunk_20260701-1830-LAPTOP-76QMG9DE__segment_0008",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.648,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-184201-LAPTOP-76QMG9DE__chunk_20260701-1830-LAPTOP-76QMG9DE__segment_0009",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.576,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-184201-LAPTOP-76QMG9DE__chunk_20260701-1830-LAPTOP-76QMG9DE__segment_0010",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.656,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-190250-NEELA9BAF__chunk_20260701-1900-NEELA9BAF__segment_0007",
+      "task": "HR_ONBOARDING",
+      "duration_seconds": 0.555,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-190250-NEELA9BAF__chunk_20260701-1900-NEELA9BAF__segment_0008",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.633,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-190250-NEELA9BAF__chunk_20260701-1900-NEELA9BAF__segment_0009",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.624,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-191537-LAPTOP-76QMG9DE__chunk_20260701-1900-LAPTOP-76QMG9DE__segment_0002",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.62,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-191537-LAPTOP-76QMG9DE__chunk_20260701-1900-LAPTOP-76QMG9DE__segment_0003",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.62,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-191537-LAPTOP-76QMG9DE__chunk_20260701-1900-LAPTOP-76QMG9DE__segment_0005",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.567,
+      "event_count": 8,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-191537-LAPTOP-76QMG9DE__chunk_20260701-1900-LAPTOP-76QMG9DE__segment_0006",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.54,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-191537-LAPTOP-76QMG9DE__chunk_20260701-1900-LAPTOP-76QMG9DE__segment_0007",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.58,
+      "event_count": 7,
+      "interaction_event_count": 6,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-192455-NEELA9BAF__chunk_20260701-1900-NEELA9BAF__segment_0001",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.571,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-192455-NEELA9BAF__chunk_20260701-1900-NEELA9BAF__segment_0002",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.657,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-192455-NEELA9BAF__chunk_20260701-1900-NEELA9BAF__segment_0003",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.567,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-192455-NEELA9BAF__chunk_20260701-1900-NEELA9BAF__segment_0004",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.641,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-192455-NEELA9BAF__chunk_20260701-1900-NEELA9BAF__segment_0005",
+      "task": "HR_PAYROLL",
+      "duration_seconds": 0.646,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-192455-NEELA9BAF__chunk_20260701-1900-NEELA9BAF__segment_0006",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.56,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-192455-NEELA9BAF__chunk_20260701-1900-NEELA9BAF__segment_0007",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.612,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-192455-NEELA9BAF__chunk_20260701-1900-NEELA9BAF__segment_0008",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.554,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-192455-NEELA9BAF__chunk_20260701-1900-NEELA9BAF__segment_0009",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.64,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-192455-NEELA9BAF__chunk_20260701-1930-NEELA9BAF__segment_0002",
+      "task": "LOGISTICS_INVENTORY",
+      "duration_seconds": 0.56,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-192455-NEELA9BAF__chunk_20260701-1930-NEELA9BAF__segment_0005",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.571,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-192455-NEELA9BAF__chunk_20260701-1930-NEELA9BAF__segment_0006",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.582,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    },
+    {
+      "segment_id": "ses_20260701-192455-NEELA9BAF__chunk_20260701-1930-NEELA9BAF__segment_0007",
+      "task": "HR_ATTENDANCE",
+      "duration_seconds": 0.557,
+      "event_count": 6,
+      "interaction_event_count": 5,
+      "pre_completion_event_count": 1,
+      "reasons": [
+        "little_activity_before_completion"
+      ]
+    }
+  ]
+}
